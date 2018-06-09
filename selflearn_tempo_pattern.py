@@ -12,43 +12,6 @@ check for my inspiration of dynamic tempo make ground truth
 '''
 
 
-def get_tempo_info(file_number):
-    # get data
-    d = BallroomData()
-
-    # wav name
-    wav_name = d.file_name(file_number)
-    # ground truth
-    aaagt_bpm = d.get_gt_bpm(file_number)
-    # load file for librosa
-    y, sr = d[file_number]
-
-    onset_env = librosa.onset.onset_strength(y, sr=sr)
-    # Static tempo
-    aaatempo = librosa.beat.tempo(onset_envelope=onset_env, sr=sr)
-
-    # Dynamic tempo
-    dtempo = librosa.beat.tempo(onset_envelope=onset_env, sr=sr, aggregate=None)
-    # Dynamic tempo distribution
-    zapple = get_tempo_distribu(dtempo)
-    aaatempo_list = zapple[0]
-    aaatempo_cnt = zapple[1]
-
-    # --- print info ---
-    print("filename =", wav_name)
-    print("gt =", aaagt_bpm)
-    print("static =", aaatempo[0])
-    print("----- guess ------ ------")
-    dis_lan = len(aaatempo_cnt)
-    for gi in range(dis_lan):
-        print("%18.14f" % aaatempo_list[gi], "%6d" % aaatempo_cnt[gi])
-        # print(str(aaatempo_list[gi]), str(aaatempo_cnt[gi]))
-    print("----- ----- ------ ------\n")
-    # --- ----- ---- ---
-
-    return aaagt_bpm, aaatempo, aaatempo_list, aaatempo_cnt
-
-
 def mix_distribu(dtempo1=([0], [0]), dtempo2=([0], [0])):
     tempo_list1, tempo_cnt1 = dtempo1
     tempo_list2, tempo_cnt2 = dtempo2
