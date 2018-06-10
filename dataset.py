@@ -58,19 +58,21 @@ class BallroomData():
         '''
         if name == "Jive":
             return 0, 60
-        if name == "Quickstep":
+        elif name == "Quickstep":
             return 60, 142
-        if name == "Tango":
+        elif name == "Tango":
             return 142, 228
-        if name == "Waltz" or "Slow Waltz":
+        elif name == "Waltz" or name == "Slow Waltz":
             return 228, 338
-        if name == "VienneseWaltz" or "Viennese Waltz":
+        elif name == "Slow Waltz":
+            return 228, 338
+        elif name == "VienneseWaltz" or name == "Viennese Waltz":
             return 338, 403
-        if name == "Samba":
+        elif name == "Samba":
             return 403, 489
-        if name == "ChaChaCha" or "Cha Cha":
+        elif name == "ChaChaCha" or name == "Cha Cha":
             return 489, 600
-        if name == "Rumba":
+        elif name == "Rumba":
             return 600, 698
         else:
             print("!! Wrong Genre Name !!")
