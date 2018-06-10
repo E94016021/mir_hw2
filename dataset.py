@@ -1,6 +1,8 @@
 import os
 import librosa
 import librosa.display
+
+
 # import matplotlib.pyplot as plt
 # import numpy as np
 #
@@ -42,6 +44,37 @@ class BallroomData():
         f = self.files[idx].split("/")
         return f[len(f) - 1]
 
+    def genre_rng(self, name):
+        # TODO: return tuple can't fit in for range QQ
+        '''
+        use like this (eg.Tango)
+
+        h, t = d.genre_rng("Tango")
+        for file_number in range(h, t):
+            print("%4d" % file_number, d.files[file_number])
+
+        :param name:
+        :return:
+        '''
+        if name == "Jive":
+            return 0, 60
+        if name == "Quickstep":
+            return 60, 142
+        if name == "Tango":
+            return 142, 228
+        if name == "Waltz" or "Slow Waltz":
+            return 228, 338
+        if name == "VienneseWaltz" or "Viennese Waltz":
+            return 338, 403
+        if name == "Samba":
+            return 403, 489
+        if name == "ChaChaCha" or "Cha Cha":
+            return 489, 600
+        if name == "Rumba":
+            return 600, 698
+        else:
+            print("!! Wrong Genre Name !!")
+            return 0, 0
 
 
 if __name__ == '__main__':
