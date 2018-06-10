@@ -23,6 +23,46 @@ def ac_tempogram(y: np.ndarray) -> np.ndarray:
     return librosa.istft(D)
 
 
+def get_tempo_distribu(dtempo):
+    bill_srt = np.sort(dtempo)
+
+    tempo_list = []
+    tempo_cnt = []
+    ln = 0
+    bd = 0
+
+    for i in range(len(bill_srt) - 1):
+        if bill_srt[i] != bill_srt[i + 1]:
+            bd_old = bd
+            bd = i + 1
+            tempo_list.append(bill_srt[i])
+            tempo_cnt.append(bd - bd_old)
+            ln += 1
+    tempo_list.append(bill_srt[len(bill_srt) - 1])
+    tempo_cnt.append(len(bill_srt) - bd)
+
+    return tempo_list, tempo_cnt
+
+
+# def get_two_tempo(tempo):
+#     # boundary of tempo from my Metronome = 30 ~ 250
+#     # 30*2 = 60
+#     # 250/2 =125
+#     if tempo < 30:
+#         print("tempo < 30")
+#         return tempo, tempo * 2
+#     elif tempo > 250:
+#         print("tempo > 250")
+#         return tempo, tempo / 2
+#     elif tempo <= 125:
+#         return tempo, tempo * 2
+#     elif tempo > 125:
+#         return tempo, tempo / 2
+#     else:
+#         print("ERROR : tempo = ", tempo)
+#         return tempo, tempo * 2
+
+
 if __name__ == "__main__":
     from dataset import BallroomData
     import matplotlib.pyplot as plt
@@ -30,7 +70,7 @@ if __name__ == "__main__":
     d = BallroomData()
     aud, sr = d[1]
 
-    #test1
+    # test1
     D = f_tempogram(aud)
 
     plt.imshow(D)
