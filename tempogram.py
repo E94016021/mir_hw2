@@ -20,7 +20,7 @@ def novel_curve_delta_spectral(y: np.ndarray) -> np.ndarray:
 
 
 def fourier_tempogram(y):
-    D = librosa.stft(novel_curve_delta_spectral(y), win_length=256, hop_length=64)
+    D = librosa.stft(novel_curve_delta_spectral(y), n_fft=512, hop_length=128)
     return np.abs(D)
 
 

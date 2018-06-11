@@ -55,8 +55,37 @@ class BallroomData(Dataset):
                 return genre
 
 
-if __name__ == "__main__":
-    d = BallroomData()
+class StdData(Dataset):
+    """Face Landmarks dataset."""
 
-    print(d.get_gt_bpm(0))
-    print(d.get_genre(0))
+    def __init__(self, transform=None):
+        self.data_path = "./std_data"
+        fs = os.listdir(self.data_path)
+
+        self.files = [os.path.join(self.data_path, f) for f in fs]
+
+    def __len__(self):
+        return len(self.files)
+
+    def __getitem__(self, idx):
+        aud, sr = librosa.load(self.files[idx])
+
+        return aud, sr
+
+    def get_gt_bpm(self, idx):
+
+        a = self.files[idx]
+        a = os.path.split(a)[-1]
+        a = int(a.replace(".mp3",""))
+
+        return a
+
+
+
+
+
+
+if __name__ == "__main__":
+    d = StdData()
+
+    print(d.get_gt_bpm(2))
