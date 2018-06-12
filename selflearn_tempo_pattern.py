@@ -52,7 +52,7 @@ if __name__ == '__main__':
 
     d = BallroomData()
 
-    for target_tempo in range(80, 180, 1):
+    for target_tempo in range(119, 123, 1):
 
         t_zapple = [], []
         total = 0
@@ -84,29 +84,29 @@ if __name__ == '__main__':
                 # total
                 t_zapple = mix_distribu(t_zapple, zapple)
 
-                # # --- print single file info ---
-                # # -------------
-                # # ------
-                # # --
-                # # -
-                # #
-                # #
-                # #
-                # print("\n\nfilename = ", wav_name)
-                # print("static = ", aaatempo[0])
-                # print("----- guess ------ ------")
-                # dis_len = len(aaatempo_cnt)
-                # for i in range(dis_len):
-                #     print("%18.14f" % aaatempo_list[i], "%6d" % aaatempo_cnt[i])
-                #     # print(str(aaatempo_list[i]), str(aaatempo_cnt[i]))
-                # print("----- ----- ------ ------")
-                # #
-                # #
-                # # -
-                # # --
-                # # -----
-                # #-----------
-                # #--------------------------------
+                # --- print single file info ---
+                # -------------
+                # ------
+                # --
+                # -
+                #
+                #
+                #
+                print("\n\nfilename = ", wav_name)
+                print("static = ", aaatempo[0])
+                print("----- guess ------ ------")
+                dis_len = len(aaatempo_cnt)
+                for i in range(dis_len):
+                    print("%18.14f" % aaatempo_list[i], "%6d" % aaatempo_cnt[i])
+                    # print(str(aaatempo_list[i]), str(aaatempo_cnt[i]))
+                print("----- ----- ------ ------")
+                #
+                #
+                # -
+                # --
+                # -----
+                #-----------
+                #--------------------------------
 
                 total += 1
         #

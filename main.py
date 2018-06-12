@@ -27,4 +27,5 @@ plt.legend(frameon=True, framealpha=0.75)
 plt.xlim(15, 30)
 plt.gca().xaxis.set_major_formatter(librosa.display.TimeFormatter())
 plt.tight_layout()
+plt.show()
 

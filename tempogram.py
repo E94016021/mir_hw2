@@ -1,29 +1,36 @@
 import numpy as np
 import librosa
+import librosa.display
+import scipy.signal
 
 
-def f_tempogram(y: np.ndarray):
-    D = librosa.stft(y)
-    print(D.shape)
+def delta_spectral(y: np.ndarray):
+    D = librosa.stft(y, n_fft=2048)
+    print("D.shap =",D.shape)
     D2 = np.abs(np.diff(D, axis=1))
     D3 = (D2 > 0).astype(float) * D2
 
     return D3
 
 
-def delta_spectral(y: np.ndarray) -> np.ndarray:
-    D = f_tempogram(y)
+def novel_curve_delta_spectral(y: np.ndarray) -> np.ndarray:
+    D = delta_spectral(y)
 
     return np.sum(D, axis=0)
 
 
+def fourier_tempogram(y):
+    D = librosa.stft(novel_curve_delta_spectral(y), win_length=256, hop_length=64)
+    return np.abs(D)
+
+
 def ac_tempogram(y: np.ndarray) -> np.ndarray:
-    D = f_tempogram(y) ** 2
+    D = delta_spectral(y) ** 2
+    D = librosa.istft(D, win_length=2048, hop_length=2048)
+    return D.reshape(1025, -1)
 
-    return librosa.istft(D)
 
-
-def get_tempo_distribu(dtempo):
+def get_tempo_distribu(dtempo=[]):
     bill_srt = np.sort(dtempo)
 
     tempo_list = []
@@ -70,20 +77,31 @@ if __name__ == "__main__":
     d = BallroomData()
     aud, sr = d[1]
 
-    # test1
-    D = f_tempogram(aud)
+    # # test1
+    # D = novel_curve_delta_spectral(aud)
+    #
+    # plt.imshow(D)
+    # plt.show()
+    #
+    # # test2
+    # D2 = novel_curve_delta_spectral(aud)
+    #
+    # plt.plot(D2)
+    # plt.show()
+    #
+    # # test3
+    # D3 = ac_tempogram(aud)
+    #
+    # plt.plot(D3)
+    # plt.show()
 
-    plt.imshow(D)
-    plt.show()
-
-    # test2
-    D2 = delta_spectral(aud)
-
-    plt.plot(D2)
-    plt.show()
-
-    # test3
-    D3 = ac_tempogram(aud)
-
-    plt.plot(D3)
-    plt.show()
+    # test4
+    D4 = fourier_tempogram(aud)
+    # plt.subplot(2, 1, 1)
+    librosa.display.specshow(D4)
+    # # test5
+    # D5 = ac_tempogram(aud)
+    #
+    # plt.subplot(2, 1, 2)
+    # plt.imshow(D5)
+    # plt.show()

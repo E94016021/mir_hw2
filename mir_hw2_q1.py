@@ -45,7 +45,7 @@ def get_tempo_info(file_number):
     return aaagt_bpm, aaatempo, aaatempo_list, aaatempo_cnt
 
 
-def get_two_tempo(file_number):
+def ac_get_two_tempo(file_number):
     '''
     only for mir hw q1
 
@@ -68,7 +68,7 @@ def get_two_tempo(file_number):
             idx_max = dynamic_tempo_cnt.index(max(dynamic_tempo_cnt))
             value_max = dynamic_tempo_list[idx_max]
 
-            sec_cnt = dynamic_tempo_cnt
+            sec_cnt = dynamic_tempo_cnt.copy()
             sec_cnt[idx_max] = -1
             idx_sec = sec_cnt.index(max(sec_cnt))
             value_sec = dynamic_tempo_list[idx_sec]
@@ -106,19 +106,21 @@ def qui_genre_rng(name):
     '''
     if name == "Jive":
         return 0, 60
-    if name == "Quickstep":
+    elif name == "Quickstep":
         return 60, 142
-    if name == "Tango":
+    elif name == "Tango":
         return 142, 228
-    if name == "Waltz" or "Slow Waltz":
+    elif name == "Waltz" or name == "Slow Waltz":
         return 228, 338
-    if name == "VienneseWaltz" or "Viennese Waltz":
+    elif name == "Slow Waltz":
+        return 228, 338
+    elif name == "VienneseWaltz" or name == "Viennese Waltz":
         return 338, 403
-    if name == "Samba":
+    elif name == "Samba":
         return 403, 489
-    if name == "ChaChaCha" or "Cha Cha":
+    elif name == "ChaChaCha" or name == "Cha Cha":
         return 489, 600
-    if name == "Rumba":
+    elif name == "Rumba":
         return 600, 698
     else:
         print("!! Wrong Genre Name !!")
@@ -146,7 +148,6 @@ if __name__ == '__main__':
         genres = ["Cha Cha", "Jive", "Quickstep", "Rumba", "Samba", "Tango", "Viennese Waltz", "Slow Waltz"]
         genres_ALOTC = [0, 0, 0, 0, 0, 0, 0, 0]
         g_id = 0
-        # genres = ["Jive", "Quickstep", "Rumba", "Samba", "Tango", "Viennese Waltz", "Slow Waltz"]
         for genre_name in genres:
             try:
                 total_p = 0
@@ -156,7 +157,7 @@ if __name__ == '__main__':
 
                 for file_number in range(rng_h, rng_t):
                     try:
-                        t_1, t_2, gt = get_two_tempo(file_number)
+                        t_1, t_2, gt = ac_get_two_tempo(file_number)
                         p = ALOTC(t_1, t_2, gt)
                         total_p += p
                         total_cnt += 1
@@ -183,7 +184,6 @@ if __name__ == '__main__':
     print(genres_ALOTC)
     tEnd = time.time()
     print("runTime = ", tEnd - tStart)
-
 
 '''
 Cha Cha
