@@ -132,9 +132,8 @@ if __name__ == "__main__":
 
         # print(dataset.get_gt_bpm(song_id))
 
-        # librosa.display.specshow(D[40:, :])
-        # plt.title(click)
-
-        # plt.show()
+        librosa.display.specshow(D[40:, :])
+        plt.title(click)
+        plt.show()
 
         print(".")
