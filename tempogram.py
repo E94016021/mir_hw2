@@ -5,7 +5,7 @@ import scipy.signal
 
 
 def delta_spectral(y: np.ndarray):
-    D = librosa.stft(y, n_fft=1024)
+    D = librosa.stft(y, n_fft=512)
     print(D.shape)
     D2 = np.abs(np.diff(D, axis=1))
     D3 = (D2 > 0).astype(float) * D2
@@ -26,7 +26,7 @@ def fourier_tempogram(y):
 
 def ac_tempogram(y: np.ndarray) -> np.ndarray:
     D = delta_spectral(y) ** 2
-    D = librosa.istft(D, win_length=2048, hop_length=2048)
+    D = librosa.istft(D, win_length=1024, hop_length=1024)
     return D.reshape(1025, -1)
 
 
