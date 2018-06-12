@@ -54,6 +54,21 @@ class BallroomData(Dataset):
             if file.find(genre) != -1:
                 return genre
 
+    def get_gg(self, idx):
+        folder = "BallroomAnnotations-Q7"
+        file = os.path.split(self.files[idx])[-1].replace(".wav", ".beats")
+        file_path = os.path.join(folder, file)
+
+        beats = []
+        beat_num = []
+
+        with open(file_path, newline='') as b:
+            for line in b.readlines():
+                beats.append(float(line.split(" ")[0]))
+                beat_num.append(int(line.split(" ")[1]))
+
+        return beats, beat_num
+
 
 class StdData(Dataset):
     """Face Landmarks dataset."""
@@ -73,19 +88,15 @@ class StdData(Dataset):
         return aud, sr
 
     def get_gt_bpm(self, idx):
-
         a = self.files[idx]
         a = os.path.split(a)[-1]
-        a = int(a.replace(".mp3",""))
+        a = int(a.replace(".mp3", ""))
 
         return a
 
 
-
-
-
-
 if __name__ == "__main__":
-    d = StdData()
+    d = BallroomData()
 
-    print(d.get_gt_bpm(2))
+    # print(d.get_gt_bpm(2))
+    d.get_gg(0)
