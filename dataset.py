@@ -49,7 +49,7 @@ class BallroomData(Dataset):
 
         file = self.files[idx]
 
-        print(file)
+        # print(file)
         for genre in self.genres:
             if file.find(genre) != -1:
                 return genre
@@ -63,9 +63,14 @@ class BallroomData(Dataset):
         beat_num = []
 
         with open(file_path, newline='') as b:
+
             for line in b.readlines():
-                beats.append(float(line.split(" ")[0]))
-                beat_num.append(int(line.split(" ")[1]))
+                try:
+                    beats.append(float(line.split(" ")[0]))
+                    beat_num.append(int(line.split(" ")[1]))
+                except ValueError:
+                    beats.append(float(line.split("\t")[0]))
+                    beat_num.append(int(line.split("\t")[1].replace('\n', '')))
 
         return beats, beat_num
 

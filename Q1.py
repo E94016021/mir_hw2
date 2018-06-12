@@ -38,12 +38,12 @@ def get_T1T2(D, t, total_time):
     return (T1_idx * bpm_per_idx, T2_idx * bpm_per_idx), (T1_intensity, T2_intensity)
 
 
-dataset = BallroomData()
-# dataset = StdData()
+# dataset = BallroomData()
+dataset = StdData()
 
-song_id = 10
+song_id = 0
 
-# 50
+# 50, 10
 
 aud, sr = dataset[song_id]
 total_time = aud.shape[0] / sr
@@ -54,7 +54,7 @@ D = fourier_tempogram(aud)
 
 for t in range(D.shape[1]):
     if t == 20:
-        librosa.display.specshow(D[20:50, :])
+        librosa.display.specshow(D[20:100, :])
         plt.show()
     print(get_T1T2(D, t, total_time))
 # print(dataset.get_genre(song_id))
