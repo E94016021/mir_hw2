@@ -26,7 +26,10 @@ class BallroomData(Dataset):
         return len(self.files)
 
     def __getitem__(self, idx):
-
+        """
+        :param idx:
+        :return: aud, sr or dict : 有兩種輸出模式，如果 ret_dict = True, 就return下面那個dict
+        """
         aud, sr = librosa.load(self.files[idx])
 
         if self.transform:
@@ -82,8 +85,14 @@ class BallroomData(Dataset):
 
 class BallroomDataGenre(BallroomData):
     def __init__(self, genre, ret_dict=False):
+        """
+
+        :param genre: 限定要用哪個genre
+        :param ret_dict: True的話 用[idx]方式拿到的東西會是一個dict
+        """
         super(BallroomDataGenre, self).__init__(ret_dict=ret_dict)
         self.files = [file for file in self.files if file.find(genre) != -1]
+
 
 
 class StdData(Dataset):
@@ -92,8 +101,8 @@ class StdData(Dataset):
     def __init__(self, transform=None):
         self.data_path = "./std_data"
         fs = os.listdir(self.data_path)
-
         self.files = [os.path.join(self.data_path, f) for f in fs]
+
 
     def __len__(self):
         return len(self.files)
