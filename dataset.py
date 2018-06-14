@@ -9,11 +9,12 @@ import numpy as np
 class BallroomData(Dataset):
     """Face Landmarks dataset."""
 
-    def __init__(self, transform=None):
+    def __init__(self, transform=None, ret_dict=False):
         self.file_list_txt = "./BallroomData/allBallroomFiles"
         self.data_path = "./BallroomData/"
         self.ground_path = "ballroomGroundTruth"
         self.genres = ["ChaChaCha", "Jive", "Quickstep", "Rumba", "Samba", "Tango", "VienneseWaltz", "Waltz"]
+        self.ret_dict = ret_dict
 
         with open(self.file_list_txt, newline='') as f:
             lines = f.readlines()
@@ -25,12 +26,16 @@ class BallroomData(Dataset):
         return len(self.files)
 
     def __getitem__(self, idx):
+
         aud, sr = librosa.load(self.files[idx])
 
         if self.transform:
             aud = self.transform(aud)
 
-        return aud, sr
+        if self.ret_dict:
+            return {'aud': aud, 'sr': sr, 'genre': self.get_genre(idx), 'bpm': self.get_gt_bpm(idx)}
+        else:
+            return aud, sr
 
     def get_gt_bpm(self, idx):
 
@@ -75,6 +80,12 @@ class BallroomData(Dataset):
         return beats, beat_num
 
 
+class BallroomDataGenre(BallroomData):
+    def __init__(self, genre, ret_dict=False):
+        super(BallroomDataGenre, self).__init__(ret_dict=ret_dict)
+        self.files = [file for file in self.files if file.find(genre) != -1]
+
+
 class StdData(Dataset):
     """Face Landmarks dataset."""
 
@@ -102,6 +113,7 @@ class StdData(Dataset):
 
 if __name__ == "__main__":
     d = BallroomData()
+    dd = BallroomDataGenre("Waltz")
 
     # print(d.get_gt_bpm(2))
-    d.get_gg(0)
+    # d.get_gg(0)
