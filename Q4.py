@@ -1,13 +1,10 @@
-import os
 import librosa
 import librosa.display
 import matplotlib.pyplot as plt
 import numpy as np
 from dataset import BallroomDataGenre, BallroomData
-from tempogram import get_tempo_distribu
+from tempogram import get_tempo_distribu, ALOTC, relative_saliency_of_t1
 import time
-from concurrent.futures import ProcessPoolExecutor
-import sys
 
 
 def get_tempo_info(d):
@@ -94,18 +91,7 @@ def ac_get_two_tempo(d):
         return t_1, t_2, ground_truth_bpm
 
 
-def relative_saliency_of_t1(t_1, t_2):
-    # TODO: unclear
-    s_1 = t_1 / (t_1 + t_2)
-    return s_1
 
-
-def ALOTC(t_1, t_2, gt):
-    if abs((gt - t_1) / gt) <= 0.08 or abs((gt - t_2) / gt) <= 0.08:
-        p = 1
-    else:
-        p = 0
-    return p
 
 
 if __name__ == '__main__':
