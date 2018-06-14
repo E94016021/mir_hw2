@@ -12,10 +12,10 @@ def get_tempo_info(d):
     :param d: {'aud': aud, 'sr': sr, 'genre': self.get_genre(idx), 'bpm': self.get_gt_bpm(idx)}
     :return:
     """
-    # get data
-
+    
     # ground truth
     tempo = d['bpm']
+    
     # load file for librosa
     y, sr = d['aud'], d['sr']
 
@@ -28,20 +28,7 @@ def get_tempo_info(d):
 
     # Dynamic tempo distribution
     tempo_pred_dynamic_dist = get_tempo_distribu(tempo_pred_dynamic)
-    # aaatempo_list = tempo_pred_dynamic_dist[0]
     tempo_cnt = tempo_pred_dynamic_dist[1]
-
-    # # --- print info ---
-    # print("filename = ", wav_name)
-    # print("gt = ", aaagt_bpm)
-    # print("static = ", aaatempo[0])
-    # print("----- guess ------ ------")
-    # dis_lan = len(aaatempo_cnt)
-    # for i in range(dis_lan):
-    #     print("%18.14f" % aaatempo_list[i], "%6d" % aaatempo_cnt[i])
-    #     # print(str(aaatempo_list[i]), str(aaatempo_cnt[i]))
-    # print("----- ----- ------ ------\n\n")
-    # # --- ----- ---- ---
 
     return tempo, tempo_pred_static, tempo_pred_dynamic, tempo_cnt
 
@@ -81,17 +68,8 @@ def ac_get_two_tempo(d):
         else:
             t_1 = value_max
             t_2 = value_sec
-        #
-        # print(dynamic_tempo_cnt)
-        # print(sec_cnt)
-        # print(idx_max)
-        # print(idx_sec)
-        # print(".")
 
         return t_1, t_2, ground_truth_bpm
-
-
-
 
 
 if __name__ == '__main__':
@@ -101,17 +79,9 @@ if __name__ == '__main__':
     genre_ALOTC = {}
     file_count = 0
 
-    # d = BallroomDataGenre("ChaChaCha", ret_dict=True)
-    #
-    # ac_get_two_tempo(d[0])
-
     for genre in genres:
 
         d = BallroomDataGenre(genre, ret_dict=True)
-
-        # with ProcessPoolExecutor(max_workers=6) as executor:
-
-        # for file_number, data in enumerate(executor.map(ac_get_two_tempo, d)):
         for file_number, gg in enumerate(d):
 
             data = ac_get_two_tempo(gg)
