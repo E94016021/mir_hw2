@@ -76,6 +76,8 @@ if __name__ == '__main__':
     tStart = time.time()
     total_p = 0
     genres = ["ChaChaCha", "Jive", "Quickstep", "Rumba", "Samba", "Tango", "VienneseWaltz", "Waltz"]
+    
+    # store ALOTC score by dict
     genre_ALOTC = {}
     file_count = 0
 
@@ -84,6 +86,7 @@ if __name__ == '__main__':
         d = BallroomDataGenre(genre, ret_dict=True)
         for file_number, gg in enumerate(d):
 
+            # gg is a data dict, include aud, sr, bpm, genre... information
             data = ac_get_two_tempo(gg)
 
             if data is not None:
