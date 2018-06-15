@@ -1,12 +1,7 @@
-import os
-import librosa
-import librosa.display
-import matplotlib.pyplot as plt
 import time
 import numpy as np
 from dataset import BallroomData
 from tempogram import fourier_tempogram
-import librosa.display
 import scipy.signal
 from tempogram import get_tempo_distribu
 
@@ -194,10 +189,10 @@ def get_two_f_t(D, time, sr_new, t_1, t_2):
     return peak_values[0], peak_values[1]
 
 
-def p_score_d4(t_1, t_2, f_t_1, f_t_2, gt):
+def p_score_d3(t_1, t_2, f_t_1, f_t_2, gt):
     gt = int(gt)
 
-    t_1, t_2 = t_1 / 4, t_2 / 4
+    t_1, t_2 = t_1 / 3, t_2 / 3
 
     saliency = f_t_1 / (f_t_1 + f_t_2)
 
@@ -214,8 +209,8 @@ def p_score_d4(t_1, t_2, f_t_1, f_t_2, gt):
     return p
 
 
-def ALOTC_d4(t_1, t_2, gt):
-    t_1, t_2 = t_1 / 4, t_2 / 4
+def ALOTC_d3(t_1, t_2, gt):
+    t_1, t_2 = t_1 / 3, t_2 / 3
     gt = int(gt)
     if abs((gt - t_1) / gt) <= 0.08 or abs((gt - t_2) / gt) <= 0.08:
         p = 1
@@ -278,7 +273,7 @@ if __name__ == "__main__":
                             # fet ft
                             ft1, ft2 = get_two_f_t(D, ttt, total_time, t_1, t_2)
                             # get p-score
-                            ps.append(p_score_d4(t_1, t_2, ft1, ft2, gt))
+                            ps.append(p_score_d3(t_1, t_2, ft1, ft2, gt))
 
                         # # print ps list
                         # print("---p-score list---\n", ps)
@@ -286,7 +281,7 @@ if __name__ == "__main__":
                         # get the p-score ave,
                         p_total = sum(ps)
                         p_overall = p_total / D.shape[1]
-                        alotc = ALOTC_d4(t_1, t_2, gt)
+                        alotc = ALOTC_d3(t_1, t_2, gt)
 
                         # print("p_sum =", p_total, "time =", D.shape[1])
                         print("- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - "

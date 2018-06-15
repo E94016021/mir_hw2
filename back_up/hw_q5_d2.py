@@ -1,8 +1,5 @@
-import os
 import librosa
 import librosa.display
-import matplotlib.pyplot as plt
-import numpy as np
 from dataset import BallroomData
 from tempogram import get_tempo_distribu
 import time

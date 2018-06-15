@@ -1,12 +1,7 @@
-import os
-import librosa
-import librosa.display
-import matplotlib.pyplot as plt
 import time
 import numpy as np
 from dataset import BallroomData
 from tempogram import fourier_tempogram
-import librosa.display
 import scipy.signal
 from tempogram import get_tempo_distribu
 
@@ -91,7 +86,6 @@ def f_get_two_tempo_total(tempo_list, tempo_cnt):
 
 
 def f_get_two_tempo(D, t, sr_new):
-
     sr = D.shape[1] / sr_new * 32
     hz_per_idx = sr / 2 / D.shape[0]
     bpm_per_idx = hz_per_idx * 60
@@ -116,19 +110,18 @@ def f_get_two_tempo(D, t, sr_new):
     pair.sort(key=lambda x: x[1], reverse=True)
     try:
 
-        T1_tempo = pair[0][0]   # <40 bpm not usual
+        T1_tempo = pair[0][0]  # <40 bpm not usual
         T2_tempo = pair[1][0]
 
         T1_intensity = pair[0][1]  # F(n,t_1)
         T2_intensity = pair[1][1]
-
 
         # print("bpm_per_idx = ", end='')
         # print(bpm_per_idx)
 
         # TODO: find peak (T1,T2)
 
-        return (T1_tempo/1.5, T2_tempo/1.5), (T1_intensity, T2_intensity)
+        return (T1_tempo / 1.5, T2_tempo / 1.5), (T1_intensity, T2_intensity)
 
     except Exception as e:
         print(e)
@@ -196,8 +189,11 @@ def get_two_f_t(D, time, sr_new, t_1, t_2):
     return peak_values[0], peak_values[1]
 
 
-def p_score(t_1, t_2, f_t_1, f_t_2, gt):
+def p_score_d2(t_1, t_2, f_t_1, f_t_2, gt):
     gt = int(gt)
+
+    t_1, t_2 = t_1 / 2, t_2 / 2
+
     saliency = f_t_1 / (f_t_1 + f_t_2)
 
     if abs((gt - t_1) / gt) <= 0.08:
@@ -213,7 +209,8 @@ def p_score(t_1, t_2, f_t_1, f_t_2, gt):
     return p
 
 
-def ALOTC(t_1, t_2, gt):
+def ALOTC_d2(t_1, t_2, gt):
+    t_1, t_2 = t_1 / 2, t_2 / 2
     gt = int(gt)
     if abs((gt - t_1) / gt) <= 0.08 or abs((gt - t_2) / gt) <= 0.08:
         p = 1
@@ -243,7 +240,7 @@ if __name__ == "__main__":
                 rng_h, rng_t = qui_genre_rng(genre_name)
 
                 for file_number in range(rng_h, rng_t):
-                # for file_number in range(rng_h, rng_h + 10):
+                    # for file_number in range(rng_h, rng_h + 10):
                     try:
                         print("id =", file_number, end=' - - - ')
                         aud, sr = d[file_number]
@@ -276,7 +273,7 @@ if __name__ == "__main__":
                             # fet ft
                             ft1, ft2 = get_two_f_t(D, ttt, total_time, t_1, t_2)
                             # get p-score
-                            ps.append(p_score(t_1, t_2, ft1, ft2, gt))
+                            ps.append(p_score_d2(t_1, t_2, ft1, ft2, gt))
 
                         # # print ps list
                         # print("---p-score list---\n", ps)
@@ -284,7 +281,7 @@ if __name__ == "__main__":
                         # get the p-score ave,
                         p_total = sum(ps)
                         p_overall = p_total / D.shape[1]
-                        alotc = ALOTC(t_1, t_2, gt)
+                        alotc = ALOTC_d2(t_1, t_2, gt)
 
                         # print("p_sum =", p_total, "time =", D.shape[1])
                         print("- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - "
