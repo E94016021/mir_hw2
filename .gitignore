@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 .idea
 BallroomAnnotations
 BallroomAnnotations_beat
@@ -7,9 +6,3 @@ q2_matrix
 click
 back_up
 by_exeex
-=======
-BallroomData
-ballroomGroundTruth
-__pycache__
-.idea
->>>>>>> 72042dabd8cf73c3b3f2ce9181d6ca7e8837f308

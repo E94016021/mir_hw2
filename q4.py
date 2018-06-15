@@ -207,7 +207,7 @@ if __name__ == '__main__':
                 print(genre_name)
                 rng_h, rng_t = qui_genre_rng(genre_name)
 
-                for file_number in range(rng_h, rng_h+1):
+                for file_number in range(rng_h, rng_t):
                     try:
 
                         aud, sr = data[file_number]
