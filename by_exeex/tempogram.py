@@ -1,36 +1,26 @@
 import numpy as np
 import librosa
 import librosa.display
-import scipy.signal
 
 
 def delta_spectral(y: np.ndarray):
-    D = librosa.stft(y, n_fft=2048)
-    print("D.shap =",D.shape)
+    D = librosa.stft(y, n_fft=512)
     D2 = np.abs(np.diff(D, axis=1))
     D3 = (D2 > 0).astype(float) * D2
 
     return D3
-
 
 def novel_curve_delta_spectral(y: np.ndarray) -> np.ndarray:
     D = delta_spectral(y)
 
     return np.sum(D, axis=0)
 
-
 def fourier_tempogram(y):
-    D = librosa.stft(novel_curve_delta_spectral(y), win_length=256, hop_length=64)
+    D = librosa.stft(novel_curve_delta_spectral(y), n_fft=512, hop_length=128)
     return np.abs(D)
 
 
-def ac_tempogram(y: np.ndarray) -> np.ndarray:
-    D = delta_spectral(y) ** 2
-    D = librosa.istft(D, win_length=2048, hop_length=2048)
-    return D.reshape(1025, -1)
-
-
-def get_tempo_distribu(dtempo=[]):
+def get_tempo_distribu(dtempo):
     bill_srt = np.sort(dtempo)
 
     tempo_list = []
@@ -51,27 +41,23 @@ def get_tempo_distribu(dtempo=[]):
     return tempo_list, tempo_cnt
 
 
-# def get_two_tempo(tempo):
-#     # boundary of tempo from my Metronome = 30 ~ 250
-#     # 30*2 = 60
-#     # 250/2 =125
-#     if tempo < 30:
-#         print("tempo < 30")
-#         return tempo, tempo * 2
-#     elif tempo > 250:
-#         print("tempo > 250")
-#         return tempo, tempo / 2
-#     elif tempo <= 125:
-#         return tempo, tempo * 2
-#     elif tempo > 125:
-#         return tempo, tempo / 2
-#     else:
-#         print("ERROR : tempo = ", tempo)
-#         return tempo, tempo * 2
+def relative_saliency_of_t1(t_1, t_2):
+    # TODO: unclear
+    s_1 = t_1 / (t_1 + t_2)
+    return s_1
+
+
+def ALOTC(t_1, t_2, gt):
+    if abs((gt - t_1) / gt) <= 0.08 or abs((gt - t_2) / gt) <= 0.08:
+        p = 1
+    else:
+        p = 0
+    return p
+
 
 
 if __name__ == "__main__":
-    from dataset import BallroomData
+    from by_exeex.dataset import BallroomData
     import matplotlib.pyplot as plt
 
     d = BallroomData()
@@ -83,11 +69,11 @@ if __name__ == "__main__":
     # plt.imshow(D)
     # plt.show()
     #
-    # # test2
-    # D2 = novel_curve_delta_spectral(aud)
-    #
-    # plt.plot(D2)
-    # plt.show()
+    # test2
+    D2 = novel_curve_delta_spectral(aud)
+
+    plt.plot(D2)
+    plt.show()
     #
     # # test3
     # D3 = ac_tempogram(aud)
@@ -95,10 +81,11 @@ if __name__ == "__main__":
     # plt.plot(D3)
     # plt.show()
 
-    # test4
-    D4 = fourier_tempogram(aud)
+    # #test4
+    # D4 = fourier_tempogram(aud)
     # plt.subplot(2, 1, 1)
-    librosa.display.specshow(D4)
+    # librosa.display.specshow(D4)
+
     # # test5
     # D5 = ac_tempogram(aud)
     #

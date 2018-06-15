@@ -1,0 +1,728 @@
+/Users/LEE/anaconda3/python.app/Contents/MacOS/python /Users/LEE/PycharmProjects/mir-hw2/q1.py
+Cha Cha
+id =  489 : gt = 124 , t1 = 255.7752 , t2 = 257.0802 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  490 : gt = 136 , t1 = 269.3988 , t2 = 270.6636 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  491 : gt = 123 , t1 = 248.9080 , t2 = 250.2044 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  492 : gt = 124 , t1 = 250.2044 , t2 = 255.3900 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  493 : gt = 124 , t1 = 189.2738 , t2 = 255.3900 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  494 : gt = 124 , t1 =  58.3930 , t2 = 250.0745 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  495 : gt = 124 , t1 = 128.3432 , t2 = 255.3900 . avg.P-score = 0.0360 , ALOTC-score= 1 *
+id =  496 : gt = 124 , t1 = 255.3900 , t2 = 256.6864 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  497 : gt = 124 , t1 = 255.3900 , t2 = 256.6864 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  498 : gt = 124 , t1 =  58.3378 , t2 = 255.3900 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  499 : gt = 124 , t1 = 255.3900 , t2 = 256.6864 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  500 : gt = 124 , t1 = 254.0936 , t2 = 255.3900 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  501 : gt = 124 , t1 = 254.0936 , t2 = 255.3900 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  502 : gt = 124 , t1 = 250.0745 , t2 = 252.6133 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  503 : gt = 124 , t1 = 255.3900 , t2 = 256.6864 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  504 : gt = 124 , t1 =  62.2270 , t2 = 255.3900 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  505 : gt = 124 , t1 = 255.3900 , t2 = 256.6864 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  506 : gt = 124 , t1 = 246.3153 , t2 = 247.6117 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  507 : gt = 124 , t1 = 238.5369 , t2 = 239.8333 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  508 : gt = 124 , t1 = 230.7585 , t2 = 232.0549 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  509 : gt = 124 , t1 = 248.9080 , t2 = 252.7972 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  510 : gt = 124 , t1 = 255.3900 , t2 = 257.9828 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  511 : gt = 124 , t1 = 254.0936 , t2 = 255.3900 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  512 : gt = 124 , t1 = 254.0936 , t2 = 255.3900 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  513 : gt = 116 , t1 = 239.8333 , t2 = 241.1297 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  514 : gt = 124 , t1 = 255.3900 , t2 = 256.6864 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  515 : gt = 124 , t1 = 251.5008 , t2 = 252.7972 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  516 : gt = 124 , t1 = 256.6864 , t2 = 257.9828 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  517 : gt = 108 , t1 = 224.2765 , t2 = 225.5729 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  518 : gt = 124 , t1 = 255.3900 , t2 = 256.6864 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  519 : gt = 124 , t1 =  59.6342 , t2 = 255.3900 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  520 : gt = 124 , t1 = 246.3153 , t2 = 247.6117 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  521 : gt = 120 , t1 = 245.0189 , t2 = 246.3153 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  522 : gt = 112 , t1 = 117.9720 , t2 = 119.2684 . avg.P-score = 1.0000 , ALOTC-score= 1 *
+id =  523 : gt = 124 , t1 =  55.7450 , t2 = 255.3900 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  524 : gt = 124 , t1 =  57.0414 , t2 = 255.3900 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  525 : gt = 124 , t1 =  57.0414 , t2 = 255.3900 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  526 : gt = 116 , t1 =  57.0414 , t2 = 239.8333 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  527 : gt = 108 , t1 = 221.6837 , t2 = 222.9801 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  528 : gt = 124 , t1 = 254.0936 , t2 = 255.3900 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  529 : gt = 124 , t1 = 254.0936 , t2 = 255.3900 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  530 : gt = 124 , t1 = 256.6864 , t2 = 257.9828 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  531 : gt = 124 , t1 = 254.0936 , t2 = 255.3900 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  532 : gt = 100 , t1 = 206.1270 , t2 = 207.4234 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  533 : gt = 116 , t1 = 241.1297 , t2 = 242.4261 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  534 : gt = 124 , t1 = 259.2792 , t2 = 260.5756 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  535 : gt = 128 , t1 =  57.0414 , t2 = 261.8720 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  536 : gt = 124 , t1 = 116.6756 , t2 = 255.3900 . avg.P-score = 0.0365 , ALOTC-score= 1 *
+id =  537 : gt = 124 , t1 = 254.0936 , t2 = 255.3900 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  538 : gt = 124 , t1 = 254.0936 , t2 = 255.3900 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  539 : gt = 124 , t1 = 255.3900 , t2 = 256.6864 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  540 : gt = 124 , t1 = 255.3900 , t2 = 259.2792 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  541 : gt = 124 , t1 = 255.3900 , t2 = 256.6864 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  542 : gt = 124 , t1 = 254.0936 , t2 = 255.3900 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  543 : gt = 124 , t1 = 254.0936 , t2 = 255.3900 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  544 : gt = 124 , t1 = 254.0936 , t2 = 255.3900 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  545 : gt = 124 , t1 = 254.0936 , t2 = 255.3900 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  546 : gt = 116 , t1 = 235.9441 , t2 = 237.2405 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  547 : gt = 124 , t1 = 123.1576 , t2 = 255.3900 . avg.P-score = 0.0523 , ALOTC-score= 1 *
+id =  548 : gt = 124 , t1 = 254.0936 , t2 = 255.3900 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  549 : gt = 124 , t1 = 255.3900 , t2 = 256.6864 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  550 : gt = 124 , t1 = 255.3900 , t2 = 256.6864 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  551 : gt = 124 , t1 = 252.7972 , t2 = 255.3900 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  552 : gt = 124 , t1 = 252.7972 , t2 = 255.3900 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  553 : gt = 124 , t1 = 255.3900 , t2 = 256.6864 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  554 : gt = 124 , t1 = 255.3900 , t2 = 256.6864 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  555 : gt = 124 , t1 = 255.3900 , t2 = 256.6864 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  556 : gt = 124 , t1 = 255.3900 , t2 = 256.6864 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  557 : gt = 124 , t1 = 128.3432 , t2 = 255.3900 . avg.P-score = 0.0545 , ALOTC-score= 1 *
+id =  558 : gt = 124 , t1 = 254.0936 , t2 = 255.3900 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  559 : gt = 124 , t1 =  60.9306 , t2 = 255.3900 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  560 : gt = 124 , t1 = 254.0936 , t2 = 255.3900 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  561 : gt =  92 , t1 = 190.5702 , t2 = 191.8666 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  562 : gt = 124 , t1 = 259.6902 , t2 = 260.9952 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  563 : gt = 124 , t1 = 254.4703 , t2 = 255.7752 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  564 : gt = 124 , t1 = 255.7752 , t2 = 257.0802 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  565 : gt = 124 , t1 = 255.7752 , t2 = 257.0802 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  566 : gt = 124 , t1 = 250.9797 , t2 = 252.2602 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  567 : gt = 124 , t1 = 250.9797 , t2 = 252.2602 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  568 : gt = 124 , t1 = 250.9797 , t2 = 252.2602 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  569 : gt = 128 , t1 =  90.0433 , t2 = 262.3001 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  570 : gt = 128 , t1 =  57.4189 , t2 = 264.9101 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  571 : gt = 124 , t1 = 255.7752 , t2 = 257.0802 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  572 : gt = 128 , t1 = 263.6051 , t2 = 264.9101 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  573 : gt = 128 , t1 = 262.3001 , t2 = 263.6051 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  574 : gt = 128 , t1 = 133.1075 , t2 = 264.9101 . avg.P-score = 0.6048 , ALOTC-score= 1 *
+id =  575 : gt = 128 , t1 = 263.6051 , t2 = 264.9101 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  576 : gt = 128 , t1 = 262.3001 , t2 = 263.6051 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  577 : gt = 128 , t1 = 257.0802 , t2 = 258.3852 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  578 : gt = 128 , t1 = 253.1653 , t2 = 257.0802 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  579 : gt = 128 , t1 =  57.4189 , t2 = 257.0802 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  580 : gt = 128 , t1 = 255.7752 , t2 = 257.0802 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  581 : gt = 128 , t1 = 137.0225 , t2 = 264.9101 . avg.P-score = 0.3724 , ALOTC-score= 1 *
+id =  582 : gt = 128 , t1 = 263.6051 , t2 = 264.9101 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  583 : gt = 124 , t1 = 256.5925 , t2 = 257.9017 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  584 : gt = 124 , t1 = 256.5925 , t2 = 257.9017 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  585 : gt = 124 , t1 = 256.5925 , t2 = 257.9017 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  586 : gt = 128 , t1 = 254.8212 , t2 = 256.1017 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  587 : gt = 120 , t1 = 238.1746 , t2 = 239.4551 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  588 : gt = 109 , t1 = 215.1254 , t2 = 216.4060 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  589 : gt = 124 , t1 = 258.7154 , t2 = 260.0287 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  590 : gt = 124 , t1 = 257.5176 , t2 = 258.8248 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  591 : gt = 124 , t1 = 256.2104 , t2 = 257.5176 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  592 : gt = 124 , t1 = 256.2104 , t2 = 257.5176 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  593 : gt = 117 , t1 = 237.5056 , t2 = 238.8106 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  594 : gt = 106 , t1 = 210.7724 , t2 = 213.3907 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  595 : gt = 118 , t1 = 238.8106 , t2 = 240.1155 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  596 : gt = 117 , t1 = 138.7694 , t2 = 239.5736 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  597 : gt = 124 , t1 = 255.7752 , t2 = 257.0802 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  598 : gt = 124 , t1 = 255.7752 , t2 = 257.0802 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  599 : gt = 124 , t1 = 255.7752 , t2 = 257.0802 . avg.P-score = 0.0000 , ALOTC-score= 0
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - P-score = 0.0194 alotc = 0.0631
+Jive
+id =    0 : gt = 160 , t1 = 163.3459 , t2 = 164.6423 . avg.P-score = 1.0000 , ALOTC-score= 1 *
+id =    1 : gt = 168 , t1 = 168.5315 , t2 = 171.1243 . avg.P-score = 1.0000 , ALOTC-score= 1 *
+id =    2 : gt = 176 , t1 = 180.1991 , t2 = 181.4955 . avg.P-score = 1.0000 , ALOTC-score= 1 *
+id =    3 : gt = 172 , t1 = 172.4207 , t2 = 175.0135 . avg.P-score = 1.0000 , ALOTC-score= 1 *
+id =    4 : gt = 176 , t1 = 180.1991 , t2 = 181.4955 . avg.P-score = 1.0000 , ALOTC-score= 1 *
+id =    5 : gt = 176 , t1 = 177.6063 , t2 = 180.1991 . avg.P-score = 1.0000 , ALOTC-score= 1 *
+id =    6 : gt = 172 , t1 =  88.1549 , t2 =  89.4513 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =    7 : gt = 136 , t1 = 137.4180 , t2 = 140.0108 . avg.P-score = 1.0000 , ALOTC-score= 1 *
+id =    8 : gt = 176 , t1 = 180.1991 , t2 = 181.4955 . avg.P-score = 1.0000 , ALOTC-score= 1 *
+id =    9 : gt = 176 , t1 = 178.9027 , t2 = 181.4955 . avg.P-score = 1.0000 , ALOTC-score= 1 *
+id =   10 : gt = 124 , t1 = 128.3432 , t2 = 129.6396 . avg.P-score = 1.0000 , ALOTC-score= 1 *
+id =   11 : gt = 136 , t1 = 140.0108 , t2 = 141.3072 . avg.P-score = 1.0000 , ALOTC-score= 1 *
+id =   12 : gt = 172 , t1 = 176.3099 , t2 = 177.6063 . avg.P-score = 1.0000 , ALOTC-score= 1 *
+id =   13 : gt = 172 , t1 = 177.6063 , t2 = 178.9027 . avg.P-score = 1.0000 , ALOTC-score= 1 *
+id =   14 : gt = 132 , t1 = 134.8252 , t2 = 136.1216 . avg.P-score = 1.0000 , ALOTC-score= 1 *
+id =   15 : gt = 124 , t1 = 127.0468 , t2 = 128.3432 . avg.P-score = 1.0000 , ALOTC-score= 1 *
+id =   16 : gt = 144 , t1 = 146.4928 , t2 = 147.7892 . avg.P-score = 1.0000 , ALOTC-score= 1 *
+id =   17 : gt = 160 , t1 =  81.6730 , t2 = 164.6423 . avg.P-score = 0.9396 , ALOTC-score= 1 *
+id =   18 : gt = 168 , t1 = 169.8279 , t2 = 172.4207 . avg.P-score = 1.0000 , ALOTC-score= 1 *
+id =   19 : gt = 164 , t1 = 168.5315 , t2 = 169.8279 . avg.P-score = 1.0000 , ALOTC-score= 1 *
+id =   20 : gt = 172 , t1 =  57.0414 , t2 = 176.3099 . avg.P-score = 0.9768 , ALOTC-score= 1 *
+id =   21 : gt = 172 , t1 = 176.3099 , t2 = 177.6063 . avg.P-score = 1.0000 , ALOTC-score= 1 *
+id =   22 : gt = 136 , t1 = 140.0108 , t2 = 141.3072 . avg.P-score = 1.0000 , ALOTC-score= 1 *
+id =   23 : gt = 172 , t1 = 176.3099 , t2 = 177.6063 . avg.P-score = 1.0000 , ALOTC-score= 1 *
+id =   24 : gt = 172 , t1 = 176.3099 , t2 = 177.6063 . avg.P-score = 1.0000 , ALOTC-score= 1 *
+id =   25 : gt = 172 , t1 = 177.6063 , t2 = 178.9027 . avg.P-score = 1.0000 , ALOTC-score= 1 *
+id =   26 : gt = 160 , t1 = 164.6423 , t2 = 165.9387 . avg.P-score = 1.0000 , ALOTC-score= 1 *
+id =   27 : gt = 172 , t1 = 177.6063 , t2 = 178.9027 . avg.P-score = 1.0000 , ALOTC-score= 1 *
+id =   28 : gt = 172 , t1 = 175.0135 , t2 = 176.3099 . avg.P-score = 1.0000 , ALOTC-score= 1 *
+id =   29 : gt = 124 , t1 = 127.0468 , t2 = 190.5702 . avg.P-score = 0.0304 , ALOTC-score= 1 *
+id =   30 : gt = 168 , t1 = 172.4207 , t2 = 173.7171 . avg.P-score = 1.0000 , ALOTC-score= 1 *
+id =   31 : gt = 172 , t1 = 176.3099 , t2 = 177.6063 . avg.P-score = 1.0000 , ALOTC-score= 1 *
+id =   32 : gt = 172 , t1 = 176.3099 , t2 = 177.6063 . avg.P-score = 1.0000 , ALOTC-score= 1 *
+id =   33 : gt = 168 , t1 = 172.4207 , t2 = 173.7171 . avg.P-score = 1.0000 , ALOTC-score= 1 *
+id =   34 : gt = 172 , t1 = 175.0135 , t2 = 177.6063 . avg.P-score = 1.0000 , ALOTC-score= 1 *
+id =   35 : gt = 172 , t1 = 177.6063 , t2 = 178.9027 . avg.P-score = 1.0000 , ALOTC-score= 1 *
+id =   36 : gt = 172 , t1 = 178.0438 , t2 = 179.3529 . avg.P-score = 1.0000 , ALOTC-score= 1 *
+id =   37 : gt = 172 , t1 = 177.4767 , t2 = 178.7817 . avg.P-score = 1.0000 , ALOTC-score= 1 *
+id =   38 : gt = 172 , t1 = 177.4767 , t2 = 178.7817 . avg.P-score = 1.0000 , ALOTC-score= 1 *
+id =   39 : gt = 164 , t1 = 166.5064 , t2 = 167.8073 . avg.P-score = 1.0000 , ALOTC-score= 1 *
+id =   40 : gt = 164 , t1 = 163.9051 , t2 = 165.1856 . avg.P-score = 1.0000 , ALOTC-score= 1 *
+id =   41 : gt = 176 , t1 = 133.1729 , t2 = 134.4534 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =   42 : gt = 180 , t1 = 181.8322 , t2 = 183.1127 . avg.P-score = 1.0000 , ALOTC-score= 1 *
+id =   43 : gt = 176 , t1 = 180.0867 , t2 = 182.6966 . avg.P-score = 1.0000 , ALOTC-score= 1 *
+id =   44 : gt = 176 , t1 = 181.3916 , t2 = 182.6966 . avg.P-score = 1.0000 , ALOTC-score= 1 *
+id =   45 : gt = 176 , t1 = 181.9712 , t2 = 183.2804 . avg.P-score = 1.0000 , ALOTC-score= 1 *
+id =   46 : gt = 176 , t1 = 181.3916 , t2 = 362.7833 . avg.P-score = 0.5429 , ALOTC-score= 1 *
+id =   47 : gt = 176 , t1 =  90.0433 , t2 =  91.3483 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =   48 : gt = 176 , t1 =  91.3483 , t2 = 182.6966 . avg.P-score = 0.9605 , ALOTC-score= 1 *
+id =   49 : gt = 176 , t1 = 181.3916 , t2 = 182.6966 . avg.P-score = 1.0000 , ALOTC-score= 1 *
+id =   50 : gt = 176 , t1 = 362.7833 , t2 = 364.0882 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =   51 : gt = 176 , t1 = 181.9712 , t2 = 183.2804 . avg.P-score = 1.0000 , ALOTC-score= 1 *
+id =   52 : gt = 176 , t1 = 363.9424 , t2 = 365.2516 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =   53 : gt = 172 , t1 = 177.7787 , t2 = 179.0859 . avg.P-score = 1.0000 , ALOTC-score= 1 *
+id =   54 : gt = 176 , t1 = 183.0075 , t2 = 184.3147 . avg.P-score = 1.0000 , ALOTC-score= 1 *
+id =   55 : gt = 168 , t1 = 173.8571 , t2 = 175.1643 . avg.P-score = 1.0000 , ALOTC-score= 1 *
+id =   56 : gt = 168 , t1 = 173.5618 , t2 = 174.8668 . avg.P-score = 1.0000 , ALOTC-score= 1 *
+id =   57 : gt = 168 , t1 = 173.5618 , t2 = 174.8668 . avg.P-score = 1.0000 , ALOTC-score= 1 *
+id =   58 : gt = 172 , t1 = 177.4767 , t2 = 178.7817 . avg.P-score = 1.0000 , ALOTC-score= 1 *
+id =   59 : gt = 172 , t1 = 178.0438 , t2 = 179.3529 . avg.P-score = 1.0000 , ALOTC-score= 1 *
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - P-score = 0.8908 alotc = 0.9167
+Quickstep
+id =   60 : gt = 214 , t1 = 218.6273 , t2 = 219.9364 . avg.P-score = 1.0000 , ALOTC-score= 1 *
+id =   61 : gt = 208 , t1 = 108.6591 , t2 = 216.0090 . avg.P-score = 0.9735 , ALOTC-score= 1 *
+id =   62 : gt = 204 , t1 = 210.7724 , t2 = 212.0816 . avg.P-score = 1.0000 , ALOTC-score= 1 *
+id =   63 : gt = 200 , t1 = 204.8812 , t2 = 207.4911 . avg.P-score = 1.0000 , ALOTC-score= 1 *
+id =   64 : gt = 200 , t1 =  57.4189 , t2 = 206.1862 . avg.P-score = 0.9865 , ALOTC-score= 1 *
+id =   65 : gt = 200 , t1 =  57.4189 , t2 = 214.0160 . avg.P-score = 0.9768 , ALOTC-score= 1 *
+id =   66 : gt = 200 , t1 =  57.4189 , t2 = 129.1926 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =   67 : gt = 200 , t1 =  56.1140 , t2 =  57.4189 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =   68 : gt = 204 , t1 = 210.7724 , t2 = 212.0816 . avg.P-score = 1.0000 , ALOTC-score= 1 *
+id =   69 : gt = 204 , t1 = 105.7030 , t2 = 206.1862 . avg.P-score = 0.9788 , ALOTC-score= 1 *
+id =   70 : gt = 200 , t1 =  56.1140 , t2 = 207.4911 . avg.P-score = 0.9651 , ALOTC-score= 1 *
+id =   71 : gt = 204 , t1 = 107.0080 , t2 = 108.3130 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =   72 : gt = 204 , t1 = 110.3152 , t2 = 111.6285 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =   73 : gt = 204 , t1 =  57.2516 , t2 = 184.7664 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =   74 : gt = 204 , t1 = 216.6906 , t2 = 218.0039 . avg.P-score = 1.0000 , ALOTC-score= 1 *
+id =   75 : gt = 219 , t1 = 217.6865 , t2 = 218.9670 . avg.P-score = 1.0000 , ALOTC-score= 1 *
+id =   76 : gt = 200 , t1 = 204.8306 , t2 = 207.4234 . avg.P-score = 1.0000 , ALOTC-score= 1 *
+id =   77 : gt = 204 , t1 = 208.7198 , t2 = 211.3126 . avg.P-score = 1.0000 , ALOTC-score= 1 *
+id =   78 : gt = 204 , t1 =  57.0414 , t2 = 210.0162 . avg.P-score = 0.9517 , ALOTC-score= 1 *
+id =   79 : gt = 153 , t1 =  57.0414 , t2 = 208.7198 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =   80 : gt = 153 , t1 = 201.6768 , t2 = 209.3354 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =   81 : gt = 153 , t1 = 152.9747 , t2 = 160.7531 . avg.P-score = 1.0000 , ALOTC-score= 1 *
+id =   82 : gt = 153 , t1 = 208.7198 , t2 = 210.0162 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =   83 : gt = 200 , t1 = 204.8306 , t2 = 206.1270 . avg.P-score = 1.0000 , ALOTC-score= 1 *
+id =   84 : gt = 204 , t1 = 136.1216 , t2 = 208.7198 . avg.P-score = 0.5204 , ALOTC-score= 1 *
+id =   85 : gt = 204 , t1 = 206.1270 , t2 = 207.4234 . avg.P-score = 1.0000 , ALOTC-score= 1 *
+id =   86 : gt = 200 , t1 = 206.1270 , t2 = 207.4234 . avg.P-score = 1.0000 , ALOTC-score= 1 *
+id =   87 : gt = 204 , t1 = 211.3126 , t2 = 212.6090 . avg.P-score = 1.0000 , ALOTC-score= 1 *
+id =   88 : gt = 204 , t1 = 105.0081 , t2 = 106.3045 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =   89 : gt = 204 , t1 = 208.7198 , t2 = 210.0162 . avg.P-score = 1.0000 , ALOTC-score= 1 *
+id =   90 : gt = 208 , t1 = 213.9054 , t2 = 215.2017 . avg.P-score = 1.0000 , ALOTC-score= 1 *
+id =   91 : gt = 208 , t1 =  55.7450 , t2 = 212.6090 . avg.P-score = 0.9585 , ALOTC-score= 1 *
+id =   92 : gt = 208 , t1 = 212.6090 , t2 = 213.9054 . avg.P-score = 1.0000 , ALOTC-score= 1 *
+id =   93 : gt = 208 , t1 = 212.6090 , t2 = 213.9054 . avg.P-score = 1.0000 , ALOTC-score= 1 *
+id =   94 : gt = 208 , t1 = 211.3126 , t2 = 212.6090 . avg.P-score = 1.0000 , ALOTC-score= 1 *
+id =   95 : gt = 208 , t1 = 107.6009 , t2 = 215.2017 . avg.P-score = 0.9513 , ALOTC-score= 1 *
+id =   96 : gt = 208 , t1 =  57.0414 , t2 =  59.6342 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =   97 : gt = 208 , t1 = 211.3126 , t2 = 212.6090 . avg.P-score = 1.0000 , ALOTC-score= 1 *
+id =   98 : gt = 208 , t1 = 213.9054 , t2 = 215.2017 . avg.P-score = 1.0000 , ALOTC-score= 1 *
+id =   99 : gt = 208 , t1 = 212.6090 , t2 = 216.4981 . avg.P-score = 1.0000 , ALOTC-score= 1 *
+id =  100 : gt = 208 , t1 = 212.6090 , t2 = 213.9054 . avg.P-score = 1.0000 , ALOTC-score= 1 *
+id =  101 : gt = 204 , t1 = 208.7198 , t2 = 211.3126 . avg.P-score = 1.0000 , ALOTC-score= 1 *
+id =  102 : gt = 204 , t1 = 207.4234 , t2 = 210.0162 . avg.P-score = 1.0000 , ALOTC-score= 1 *
+id =  103 : gt = 204 , t1 = 208.7198 , t2 = 210.0162 . avg.P-score = 1.0000 , ALOTC-score= 1 *
+id =  104 : gt = 204 , t1 =  57.0414 , t2 = 101.1189 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  105 : gt = 200 , t1 = 204.8306 , t2 = 207.4234 . avg.P-score = 1.0000 , ALOTC-score= 1 *
+id =  106 : gt = 208 , t1 = 212.6090 , t2 = 215.2017 . avg.P-score = 1.0000 , ALOTC-score= 1 *
+id =  107 : gt = 208 , t1 =  57.0414 , t2 =  75.1910 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  108 : gt = 204 , t1 = 102.4153 , t2 = 212.6090 . avg.P-score = 0.9895 , ALOTC-score= 1 *
+id =  109 : gt = 208 , t1 = 213.9054 , t2 = 215.2017 . avg.P-score = 1.0000 , ALOTC-score= 1 *
+id =  110 : gt = 204 , t1 = 198.3486 , t2 = 208.7198 . avg.P-score = 1.0000 , ALOTC-score= 1 *
+id =  111 : gt = 204 , t1 = 210.0162 , t2 = 211.3126 . avg.P-score = 1.0000 , ALOTC-score= 1 *
+id =  112 : gt = 204 , t1 =  55.7450 , t2 =  79.0802 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  113 : gt = 204 , t1 =  57.0414 , t2 = 208.7198 . avg.P-score = 0.9805 , ALOTC-score= 1 *
+id =  114 : gt = 200 , t1 = 206.1270 , t2 = 207.4234 . avg.P-score = 1.0000 , ALOTC-score= 1 *
+id =  115 : gt = 204 , t1 = 211.3126 , t2 = 212.6090 . avg.P-score = 1.0000 , ALOTC-score= 1 *
+id =  116 : gt = 200 , t1 = 206.1270 , t2 = 207.4234 . avg.P-score = 1.0000 , ALOTC-score= 1 *
+id =  117 : gt = 204 , t1 = 208.7198 , t2 = 210.0162 . avg.P-score = 1.0000 , ALOTC-score= 1 *
+id =  118 : gt = 204 , t1 = 211.3126 , t2 = 212.6090 . avg.P-score = 1.0000 , ALOTC-score= 1 *
+id =  119 : gt = 204 , t1 = 210.0162 , t2 = 213.9054 . avg.P-score = 1.0000 , ALOTC-score= 1 *
+id =  120 : gt = 204 , t1 = 208.7198 , t2 = 210.0162 . avg.P-score = 1.0000 , ALOTC-score= 1 *
+id =  121 : gt = 200 , t1 = 207.4234 , t2 = 210.0162 . avg.P-score = 1.0000 , ALOTC-score= 1 *
+id =  122 : gt = 208 , t1 =  55.7450 , t2 = 107.6009 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  123 : gt = 200 , t1 = 204.8306 , t2 = 210.0162 . avg.P-score = 1.0000 , ALOTC-score= 1 *
+id =  124 : gt = 200 , t1 = 206.1270 , t2 = 207.4234 . avg.P-score = 1.0000 , ALOTC-score= 1 *
+id =  125 : gt = 204 , t1 = 210.0162 , t2 = 211.3126 . avg.P-score = 1.0000 , ALOTC-score= 1 *
+id =  126 : gt = 208 , t1 = 213.9054 , t2 = 215.2017 . avg.P-score = 1.0000 , ALOTC-score= 1 *
+id =  127 : gt = 200 , t1 = 203.5342 , t2 = 204.8306 . avg.P-score = 1.0000 , ALOTC-score= 1 *
+id =  128 : gt = 200 , t1 = 204.8306 , t2 = 206.1270 . avg.P-score = 1.0000 , ALOTC-score= 1 *
+id =  129 : gt = 200 , t1 = 203.5342 , t2 = 204.8306 . avg.P-score = 1.0000 , ALOTC-score= 1 *
+id =  130 : gt = 204 , t1 =  57.0414 , t2 = 105.0081 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  131 : gt = 200 , t1 = 204.8306 , t2 = 208.7198 . avg.P-score = 1.0000 , ALOTC-score= 1 *
+id =  132 : gt = 204 , t1 = 207.4234 , t2 = 210.0162 . avg.P-score = 1.0000 , ALOTC-score= 1 *
+id =  133 : gt = 204 , t1 = 210.0162 , t2 = 211.3126 . avg.P-score = 1.0000 , ALOTC-score= 1 *
+id =  134 : gt = 204 , t1 = 210.0162 , t2 = 211.3126 . avg.P-score = 1.0000 , ALOTC-score= 1 *
+id =  135 : gt = 204 , t1 = 210.0162 , t2 = 211.3126 . avg.P-score = 1.0000 , ALOTC-score= 1 *
+id =  136 : gt = 204 , t1 = 210.0162 , t2 = 211.3126 . avg.P-score = 1.0000 , ALOTC-score= 1 *
+id =  137 : gt = 204 , t1 = 208.7198 , t2 = 210.0162 . avg.P-score = 1.0000 , ALOTC-score= 1 *
+id =  138 : gt = 204 , t1 =  55.7450 , t2 =  58.3378 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  139 : gt = 204 , t1 = 105.0081 , t2 = 210.0162 . avg.P-score = 0.9764 , ALOTC-score= 1 *
+id =  140 : gt = 204 , t1 = 132.2324 , t2 = 212.6090 . avg.P-score = 0.9637 , ALOTC-score= 1 *
+id =  141 : gt = 200 , t1 = 202.2378 , t2 = 203.5342 . avg.P-score = 1.0000 , ALOTC-score= 1 *
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - P-score = 0.7948 alotc = 0.8049
+Rumba
+id =  600 : gt = 104 , t1 = 213.9054 , t2 = 215.2017 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  601 : gt = 104 , t1 = 213.9054 , t2 = 215.2017 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  602 : gt = 104 , t1 = 213.9054 , t2 = 215.2017 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  603 : gt = 104 , t1 = 213.9054 , t2 = 215.2017 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  604 : gt = 104 , t1 = 213.9054 , t2 = 215.2017 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  605 : gt =  88 , t1 = 181.4955 , t2 = 182.7918 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  606 : gt =  92 , t1 =  55.7450 , t2 = 119.2684 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  607 : gt =  96 , t1 =  70.0054 , t2 =  75.1910 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  608 : gt = 100 , t1 = 204.8306 , t2 = 206.1270 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  609 : gt =  96 , t1 =  55.7450 , t2 =  57.0414 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  610 : gt = 100 , t1 =  57.0414 , t2 =  58.3378 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  611 : gt = 100 , t1 =  57.0414 , t2 = 206.1270 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  612 : gt = 100 , t1 = 204.8306 , t2 = 207.4234 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  613 : gt =  84 , t1 =  57.0414 , t2 = 173.7171 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  614 : gt = 100 , t1 = 202.2712 , t2 = 203.5762 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  615 : gt = 122 , t1 =  56.2933 , t2 = 248.7376 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  616 : gt = 122 , t1 =  57.6024 , t2 = 248.7376 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  617 : gt =  84 , t1 =  57.4189 , t2 = 173.5618 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  618 : gt =  96 , t1 = 198.3563 , t2 = 199.6613 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  619 : gt =  96 , t1 = 198.3563 , t2 = 200.9663 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  620 : gt =  96 , t1 = 198.3563 , t2 = 199.6613 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  621 : gt = 108 , t1 = 195.9178 , t2 = 197.1983 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  622 : gt = 100 , t1 = 199.7593 , t2 = 202.3204 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  623 : gt =  88 , t1 =  56.3424 , t2 =  88.3551 . avg.P-score = 0.5873 , ALOTC-score= 1 *
+id =  624 : gt = 120 , t1 =  55.0619 , t2 = 181.8322 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  625 : gt = 120 , t1 = 174.1492 , t2 = 175.4297 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  626 : gt = 104 , t1 = 208.7961 , t2 = 215.3210 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  627 : gt = 104 , t1 = 214.0160 , t2 = 215.3210 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  628 : gt = 104 , t1 = 214.0160 , t2 = 215.3210 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  629 : gt = 104 , t1 = 108.3130 , t2 = 215.3210 . avg.P-score = 0.0526 , ALOTC-score= 1 *
+id =  630 : gt = 104 , t1 = 214.0160 , t2 = 215.3210 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  631 : gt = 104 , t1 =  58.9115 , t2 = 216.0090 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  632 : gt = 104 , t1 = 214.0160 , t2 = 215.3210 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  633 : gt = 104 , t1 = 203.5762 , t2 = 215.3210 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  634 : gt = 104 , t1 = 215.3210 , t2 = 216.6260 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  635 : gt = 104 , t1 = 215.3210 , t2 = 216.6260 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  636 : gt = 104 , t1 = 216.0090 , t2 = 217.3181 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  637 : gt = 104 , t1 = 215.3210 , t2 = 216.6260 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  638 : gt = 104 , t1 = 214.0160 , t2 = 215.3210 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  639 : gt = 104 , t1 = 215.3210 , t2 = 217.9310 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  640 : gt = 104 , t1 = 215.3210 , t2 = 216.6260 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  641 : gt = 104 , t1 = 209.1538 , t2 = 210.4291 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  642 : gt = 104 , t1 = 216.0090 , t2 = 217.3181 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  643 : gt =  96 , t1 = 199.6180 , t2 = 200.9313 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  644 : gt =  96 , t1 = 198.6938 , t2 = 200.0010 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  645 : gt = 100 , t1 = 206.5370 , t2 = 207.8442 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  646 : gt = 100 , t1 = 206.5370 , t2 = 207.8442 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  647 : gt = 100 , t1 = 206.1862 , t2 = 207.4911 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  648 : gt = 100 , t1 = 206.1862 , t2 = 207.4911 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  649 : gt = 100 , t1 = 207.4911 , t2 = 208.7961 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  650 : gt = 100 , t1 = 206.1862 , t2 = 207.4911 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  651 : gt = 115 , t1 = 227.9305 , t2 = 230.4915 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  652 : gt = 135 , t1 =  83.7853 , t2 = 141.3877 . avg.P-score = 0.9622 , ALOTC-score= 1 *
+id =  653 : gt = 122 , t1 =  62.7449 , t2 = 240.7356 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  654 : gt = 120 , t1 =  56.3424 , t2 = 270.1873 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  655 : gt = 115 , t1 =  84.5136 , t2 = 227.9305 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  656 : gt = 141 , t1 = 285.5534 , t2 = 286.8339 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  657 : gt = 130 , t1 = 259.1164 , t2 = 264.2222 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  658 : gt = 100 , t1 =  57.0414 , t2 = 206.1270 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  659 : gt = 100 , t1 = 204.8306 , t2 = 206.1270 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  660 : gt = 100 , t1 = 206.1270 , t2 = 207.4234 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  661 : gt = 104 , t1 = 213.9054 , t2 = 215.2017 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  662 : gt = 100 , t1 = 203.5342 , t2 = 204.8306 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  663 : gt = 100 , t1 = 204.8306 , t2 = 206.1270 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  664 : gt = 104 , t1 =  57.0414 , t2 = 216.4981 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  665 : gt =  76 , t1 = 154.2711 , t2 = 155.5675 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  666 : gt =  80 , t1 =  57.0414 , t2 =  59.6342 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  667 : gt =  96 , t1 =  72.5982 , t2 =  73.8946 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  668 : gt = 100 , t1 = 197.0522 , t2 = 198.3486 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  669 : gt = 100 , t1 = 206.1270 , t2 = 207.4234 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  670 : gt = 100 , t1 = 203.5342 , t2 = 204.8306 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  671 : gt =  76 , t1 =  57.0414 , t2 = 155.5675 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  672 : gt = 100 , t1 =  55.7450 , t2 = 202.2378 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  673 : gt = 100 , t1 =  55.7450 , t2 =  57.0414 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  674 : gt = 100 , t1 = 206.1270 , t2 = 207.4234 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  675 : gt = 100 , t1 = 206.1270 , t2 = 410.9576 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  676 : gt =  76 , t1 =  57.0414 , t2 =  64.8198 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  677 : gt =  92 , t1 = 187.9774 , t2 = 189.2738 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  678 : gt =  88 , t1 =  55.7450 , t2 =  57.0414 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  679 : gt =  92 , t1 =  85.5621 , t2 =  86.8585 . avg.P-score = 1.0000 , ALOTC-score= 1 *
+id =  680 : gt = 100 , t1 = 206.1270 , t2 = 207.4234 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  681 : gt = 100 , t1 = 203.5342 , t2 = 204.8306 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  682 : gt =  96 , t1 = 197.0522 , t2 = 198.3486 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  683 : gt = 100 , t1 = 204.8306 , t2 = 206.1270 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  684 : gt = 100 , t1 = 204.8306 , t2 = 206.1270 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  685 : gt = 100 , t1 = 204.8306 , t2 = 206.1270 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  686 : gt =  96 , t1 = 198.3486 , t2 = 199.6450 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  687 : gt = 100 , t1 = 204.8306 , t2 = 206.1270 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  688 : gt = 100 , t1 = 204.8306 , t2 = 206.1270 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  689 : gt =  96 , t1 = 189.2738 , t2 = 197.0522 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  690 : gt =  92 , t1 = 185.3846 , t2 = 191.8666 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  691 : gt =  92 , t1 = 187.9774 , t2 = 190.5702 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  692 : gt =  92 , t1 =  55.7450 , t2 =  57.0414 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  693 : gt = 100 , t1 =  57.0414 , t2 = 206.1270 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  694 : gt = 100 , t1 = 203.5342 , t2 = 206.1270 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  695 : gt =  76 , t1 = 154.2711 , t2 = 155.5675 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  696 : gt =  76 , t1 =  55.7450 , t2 = 155.5675 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  697 : gt =  92 , t1 =  57.6229 , t2 =  88.3551 . avg.P-score = 0.5143 , ALOTC-score= 1 *
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - P-score = 0.0318 alotc = 0.0510
+Samba
+id =  403 : gt = 100 , t1 =  57.0414 , t2 = 412.2540 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  404 : gt = 100 , t1 = 127.0468 , t2 = 128.3432 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  405 : gt = 100 , t1 = 410.9576 , t2 = 412.2540 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  406 : gt = 100 , t1 =  57.0414 , t2 = 207.4234 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  407 : gt = 100 , t1 = 409.6612 , t2 = 410.9576 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  408 : gt =  92 , t1 =  55.7450 , t2 =  57.0414 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  409 : gt = 100 , t1 = 207.4234 , t2 = 410.9576 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  410 : gt = 102 , t1 = 158.1603 , t2 = 211.3126 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  411 : gt = 104 , t1 = 213.9054 , t2 = 427.8107 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  412 : gt =  88 , t1 = 364.2873 , t2 = 365.5837 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  413 : gt = 104 , t1 =  73.8946 , t2 = 106.3045 . avg.P-score = 0.5295 , ALOTC-score= 1 *
+id =  414 : gt = 104 , t1 =  57.0414 , t2 = 215.2017 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  415 : gt = 102 , t1 = 106.3045 , t2 = 420.0323 . avg.P-score = 0.0249 , ALOTC-score= 1 *
+id =  416 : gt = 102 , t1 = 105.0081 , t2 = 422.6251 . avg.P-score = 0.0257 , ALOTC-score= 1 *
+id =  417 : gt =  68 , t1 = 127.0468 , t2 = 283.9107 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  418 : gt = 102 , t1 = 418.7359 , t2 = 420.0323 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  419 : gt = 102 , t1 = 210.0162 , t2 = 211.3126 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  420 : gt = 102 , t1 = 418.7359 , t2 = 420.0323 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  421 : gt = 102 , t1 = 418.7359 , t2 = 420.0323 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  422 : gt =  96 , t1 =  99.8225 , t2 = 198.3486 . avg.P-score = 0.0492 , ALOTC-score= 1 *
+id =  423 : gt = 102 , t1 = 210.0162 , t2 = 418.7359 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  424 : gt = 100 , t1 = 409.6612 , t2 = 410.9576 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  425 : gt = 102 , t1 =  57.0414 , t2 =  58.3378 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  426 : gt = 100 , t1 = 409.6612 , t2 = 410.9576 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  427 : gt = 102 , t1 =  57.0414 , t2 = 124.4540 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  428 : gt = 102 , t1 = 418.7359 , t2 = 420.0323 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  429 : gt = 102 , t1 = 210.0162 , t2 = 211.3126 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  430 : gt = 100 , t1 = 206.1270 , t2 = 207.4234 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  431 : gt =  98 , t1 = 401.8828 , t2 = 403.1792 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  432 : gt = 102 , t1 = 413.5503 , t2 = 414.8467 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  433 : gt = 102 , t1 =  57.0414 , t2 = 208.7198 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  434 : gt = 102 , t1 = 418.7359 , t2 = 420.0323 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  435 : gt = 100 , t1 = 203.5342 , t2 = 204.8306 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  436 : gt = 102 , t1 = 417.4395 , t2 = 418.7359 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  437 : gt = 100 , t1 = 408.3648 , t2 = 409.6612 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  438 : gt = 100 , t1 = 103.7117 , t2 = 410.9576 . avg.P-score = 0.0484 , ALOTC-score= 1 *
+id =  439 : gt = 102 , t1 = 210.0162 , t2 = 211.3126 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  440 : gt = 102 , t1 = 208.7198 , t2 = 210.0162 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  441 : gt =  88 , t1 =  88.1549 , t2 =  90.7477 . avg.P-score = 1.0000 , ALOTC-score= 1 *
+id =  442 : gt = 100 , t1 = 410.9576 , t2 = 412.2540 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  443 : gt = 100 , t1 = 410.9576 , t2 = 412.2540 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  444 : gt = 100 , t1 = 410.9576 , t2 = 412.2540 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  445 : gt = 100 , t1 = 410.9576 , t2 = 412.2540 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  446 : gt = 100 , t1 = 410.9576 , t2 = 412.2540 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  447 : gt = 102 , t1 = 208.7198 , t2 = 210.0162 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  448 : gt = 102 , t1 = 418.7359 , t2 = 420.0323 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  449 : gt = 102 , t1 = 208.7198 , t2 = 210.0162 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  450 : gt =  96 , t1 =  99.8225 , t2 = 395.4008 . avg.P-score = 0.0359 , ALOTC-score= 1 *
+id =  451 : gt = 100 , t1 = 207.4234 , t2 = 410.9576 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  452 : gt = 102 , t1 = 156.8639 , t2 = 420.0323 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  453 : gt = 102 , t1 = 418.7359 , t2 = 420.0323 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  454 : gt =  74 , t1 = 300.7639 , t2 = 302.0603 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  455 : gt = 224 , t1 = 103.0931 , t2 = 104.3981 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  456 : gt = 102 , t1 = 211.4061 , t2 = 421.5072 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  457 : gt = 100 , t1 = 104.3981 , t2 = 414.9823 . avg.P-score = 0.0469 , ALOTC-score= 1 *
+id =  458 : gt = 102 , t1 = 421.5072 , t2 = 422.8121 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  459 : gt = 100 , t1 = 412.3723 , t2 = 413.6773 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  460 : gt = 104 , t1 = 211.2839 , t2 = 421.2873 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  461 : gt = 104 , t1 = 250.9797 , t2 = 252.2602 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  462 : gt = 104 , t1 = 212.5644 , t2 = 421.2873 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  463 : gt = 104 , t1 = 108.3130 , t2 = 429.3370 . avg.P-score = 0.0632 , ALOTC-score= 1 *
+id =  464 : gt = 102 , t1 = 420.2022 , t2 = 421.5072 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  465 : gt = 104 , t1 = 430.7089 , t2 = 432.0180 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  466 : gt = 104 , t1 = 430.7089 , t2 = 432.0180 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  467 : gt = 104 , t1 = 429.3370 , t2 = 430.6420 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  468 : gt = 104 , t1 = 214.6999 , t2 = 216.0090 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  469 : gt = 102 , t1 = 215.3210 , t2 = 429.3370 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  470 : gt = 104 , t1 = 215.3210 , t2 = 216.6260 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  471 : gt = 100 , t1 = 413.6773 , t2 = 414.9823 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  472 : gt = 100 , t1 = 103.0931 , t2 = 104.3981 . avg.P-score = 1.0000 , ALOTC-score= 1 *
+id =  473 : gt = 100 , t1 = 103.0931 , t2 = 104.3981 . avg.P-score = 1.0000 , ALOTC-score= 1 *
+id =  474 : gt = 104 , t1 = 429.3370 , t2 = 430.6420 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  475 : gt = 104 , t1 = 429.3370 , t2 = 430.6420 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  476 : gt = 104 , t1 = 429.3370 , t2 = 430.6420 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  477 : gt = 100 , t1 = 130.4976 , t2 = 413.6773 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  478 : gt = 100 , t1 = 412.3723 , t2 = 413.6773 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  479 : gt = 100 , t1 = 207.4911 , t2 = 413.6773 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  480 : gt = 202 , t1 = 405.9212 , t2 = 407.2017 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  481 : gt = 100 , t1 = 103.2685 , t2 = 414.3812 . avg.P-score = 0.0545 , ALOTC-score= 1 *
+id =  482 : gt = 100 , t1 =  57.5166 , t2 = 414.3812 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  483 : gt = 100 , t1 = 414.3812 , t2 = 415.6884 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  484 : gt = 100 , t1 = 103.2685 , t2 = 104.5757 . avg.P-score = 1.0000 , ALOTC-score= 1 *
+id =  485 : gt = 100 , t1 = 103.0931 , t2 = 104.3981 . avg.P-score = 1.0000 , ALOTC-score= 1 *
+id =  486 : gt = 100 , t1 = 207.4911 , t2 = 413.6773 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  487 : gt = 100 , t1 = 105.7030 , t2 = 421.5072 . avg.P-score = 0.0578 , ALOTC-score= 1 *
+id =  488 : gt = 100 , t1 = 415.0160 , t2 = 416.3294 . avg.P-score = 0.0000 , ALOTC-score= 0
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - P-score = 0.0690 alotc = 0.1744
+Tango
+id =  142 : gt = 128 , t1 =  57.0414 , t2 = 129.6396 . avg.P-score = 0.4741 , ALOTC-score= 1 *
+id =  143 : gt = 128 , t1 =  57.0414 , t2 =  66.1162 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  144 : gt = 128 , t1 =  62.2270 , t2 = 130.9360 . avg.P-score = 0.3991 , ALOTC-score= 1 *
+id =  145 : gt = 128 , t1 = 130.9360 , t2 = 132.2324 . avg.P-score = 1.0000 , ALOTC-score= 1 *
+id =  146 : gt = 128 , t1 = 263.1684 , t2 = 264.4648 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  147 : gt = 128 , t1 = 263.1684 , t2 = 267.0576 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  148 : gt = 128 , t1 = 264.4648 , t2 = 265.7612 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  149 : gt = 128 , t1 =  73.8946 , t2 = 133.5288 . avg.P-score = 0.9746 , ALOTC-score= 1 *
+id =  150 : gt = 128 , t1 =  62.2270 , t2 = 130.9360 . avg.P-score = 0.4039 , ALOTC-score= 1 *
+id =  151 : gt = 132 , t1 = 134.8252 , t2 = 136.1216 . avg.P-score = 1.0000 , ALOTC-score= 1 *
+id =  152 : gt = 128 , t1 =  57.0414 , t2 = 132.2324 . avg.P-score = 0.5160 , ALOTC-score= 1 *
+id =  153 : gt = 128 , t1 =  55.7450 , t2 = 269.6504 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  154 : gt = 128 , t1 =  64.8198 , t2 = 264.4648 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  155 : gt = 128 , t1 = 263.1684 , t2 = 264.4648 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  156 : gt = 128 , t1 = 263.1684 , t2 = 264.4648 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  157 : gt = 120 , t1 =  57.0414 , t2 = 119.2684 . avg.P-score = 0.4492 , ALOTC-score= 1 *
+id =  158 : gt = 128 , t1 =  55.7450 , t2 =  57.0414 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  159 : gt = 128 , t1 = 130.9360 , t2 = 136.1216 . avg.P-score = 1.0000 , ALOTC-score= 1 *
+id =  160 : gt = 128 , t1 =  71.3018 , t2 = 136.1216 . avg.P-score = 0.9676 , ALOTC-score= 1 *
+id =  161 : gt = 128 , t1 = 265.7612 , t2 = 267.0576 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  162 : gt = 128 , t1 = 129.6396 , t2 = 132.2324 . avg.P-score = 1.0000 , ALOTC-score= 1 *
+id =  163 : gt = 128 , t1 = 263.1684 , t2 = 264.4648 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  164 : gt = 128 , t1 =  57.0414 , t2 = 130.9360 . avg.P-score = 0.3571 , ALOTC-score= 1 *
+id =  165 : gt = 128 , t1 =  55.7450 , t2 = 270.9468 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  166 : gt = 128 , t1 =  66.1162 , t2 = 101.1189 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  167 : gt = 128 , t1 =  59.6342 , t2 = 263.1684 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  168 : gt = 128 , t1 =  62.2270 , t2 =  66.1162 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  169 : gt = 128 , t1 =  63.5234 , t2 = 129.6396 . avg.P-score = 0.4539 , ALOTC-score= 1 *
+id =  170 : gt = 132 , t1 = 103.7117 , t2 = 138.7144 . avg.P-score = 0.9334 , ALOTC-score= 1 *
+id =  171 : gt = 132 , t1 = 101.1189 , t2 = 136.1216 . avg.P-score = 0.9685 , ALOTC-score= 1 *
+id =  172 : gt = 132 , t1 = 270.9468 , t2 = 272.2432 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  173 : gt = 132 , t1 = 134.8252 , t2 = 136.1216 . avg.P-score = 1.0000 , ALOTC-score= 1 *
+id =  174 : gt = 128 , t1 =  64.8198 , t2 = 101.1189 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  175 : gt = 128 , t1 =  63.5234 , t2 = 259.2792 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  176 : gt = 128 , t1 = 128.3432 , t2 = 129.6396 . avg.P-score = 1.0000 , ALOTC-score= 1 *
+id =  177 : gt = 124 , t1 =  67.4126 , t2 = 128.3432 . avg.P-score = 0.3919 , ALOTC-score= 1 *
+id =  178 : gt = 128 , t1 = 263.1684 , t2 = 264.4648 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  179 : gt = 128 , t1 = 132.2324 , t2 = 263.1684 . avg.P-score = 0.0324 , ALOTC-score= 1 *
+id =  180 : gt = 128 , t1 =  98.5261 , t2 = 274.8360 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  181 : gt = 128 , t1 = 130.9360 , t2 = 132.2324 . avg.P-score = 1.0000 , ALOTC-score= 1 *
+id =  182 : gt = 128 , t1 =  66.1162 , t2 =  67.4126 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  183 : gt = 128 , t1 = 130.9360 , t2 = 132.2324 . avg.P-score = 1.0000 , ALOTC-score= 1 *
+id =  184 : gt = 128 , t1 = 132.2324 , t2 = 263.1684 . avg.P-score = 0.0280 , ALOTC-score= 1 *
+id =  185 : gt = 128 , t1 =  55.7450 , t2 =  57.0414 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  186 : gt = 128 , t1 = 129.6396 , t2 = 264.4648 . avg.P-score = 0.0435 , ALOTC-score= 1 *
+id =  187 : gt = 128 , t1 = 261.8720 , t2 = 263.1684 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  188 : gt = 128 , t1 = 130.9360 , t2 = 132.2324 . avg.P-score = 1.0000 , ALOTC-score= 1 *
+id =  189 : gt = 128 , t1 =  66.1162 , t2 =  67.4126 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  190 : gt = 128 , t1 = 132.2324 , t2 = 263.1684 . avg.P-score = 0.0447 , ALOTC-score= 1 *
+id =  191 : gt = 128 , t1 =  64.8198 , t2 = 265.7612 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  192 : gt = 128 , t1 =  57.0414 , t2 =  62.2270 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  193 : gt = 128 , t1 = 263.1684 , t2 = 265.7612 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  194 : gt = 132 , t1 = 133.5288 , t2 = 134.8252 . avg.P-score = 1.0000 , ALOTC-score= 1 *
+id =  195 : gt = 132 , t1 =  75.1910 , t2 = 134.8252 . avg.P-score = 0.9651 , ALOTC-score= 1 *
+id =  196 : gt = 128 , t1 =  57.0414 , t2 = 134.8252 . avg.P-score = 0.9604 , ALOTC-score= 1 *
+id =  197 : gt = 128 , t1 =  62.2270 , t2 =  68.7090 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  198 : gt = 128 , t1 = 131.8026 , t2 = 133.1075 . avg.P-score = 1.0000 , ALOTC-score= 1 *
+id =  199 : gt = 128 , t1 =  57.4189 , t2 = 168.3419 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  200 : gt = 128 , t1 = 131.8026 , t2 = 134.4125 . avg.P-score = 1.0000 , ALOTC-score= 1 *
+id =  201 : gt = 128 , t1 =  58.7239 , t2 = 268.8250 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  202 : gt = 132 , t1 = 272.3023 , t2 = 274.9205 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  203 : gt = 128 , t1 =  57.4189 , t2 =  58.7239 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  204 : gt = 132 , t1 = 276.6549 , t2 = 277.9598 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  205 : gt = 128 , t1 = 271.4350 , t2 = 272.7399 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  206 : gt = 128 , t1 = 134.4125 , t2 = 135.7175 . avg.P-score = 1.0000 , ALOTC-score= 1 *
+id =  207 : gt = 132 , t1 = 134.8420 , t2 = 136.1511 . avg.P-score = 1.0000 , ALOTC-score= 1 *
+id =  208 : gt = 128 , t1 = 271.4350 , t2 = 275.3499 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  209 : gt = 128 , t1 =  72.0030 , t2 = 133.5328 . avg.P-score = 0.9663 , ALOTC-score= 1 *
+id =  210 : gt = 112 , t1 =  55.5858 , t2 =  56.8492 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  211 : gt = 116 , t1 = 116.2250 , t2 = 117.4883 . avg.P-score = 1.0000 , ALOTC-score= 1 *
+id =  212 : gt = 116 , t1 = 114.9616 , t2 = 116.2250 . avg.P-score = 1.0000 , ALOTC-score= 1 *
+id =  213 : gt = 116 , t1 = 123.8048 , t2 = 237.5032 . avg.P-score = 0.0379 , ALOTC-score= 1 *
+id =  214 : gt = 116 , t1 =  55.5858 , t2 =  56.8492 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  215 : gt = 120 , t1 = 118.7516 , t2 = 121.2782 . avg.P-score = 1.0000 , ALOTC-score= 1 *
+id =  216 : gt = 120 , t1 = 117.4883 , t2 = 125.0682 . avg.P-score = 1.0000 , ALOTC-score= 1 *
+id =  217 : gt = 120 , t1 =  56.8492 , t2 =  63.1657 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  218 : gt = 120 , t1 =  64.4291 , t2 = 125.0682 . avg.P-score = 0.5918 , ALOTC-score= 1 *
+id =  219 : gt = 120 , t1 =  56.8492 , t2 =  59.3758 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  220 : gt = 124 , t1 =  55.5858 , t2 = 121.2782 . avg.P-score = 0.3784 , ALOTC-score= 1 *
+id =  221 : gt = 124 , t1 = 243.8198 , t2 = 245.0831 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  222 : gt = 128 , t1 = 245.0831 , t2 = 246.3464 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  223 : gt = 128 , t1 =  60.6391 , t2 = 128.8581 . avg.P-score = 0.3845 , ALOTC-score= 1 *
+id =  224 : gt = 132 , t1 = 264.0328 , t2 = 265.2961 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  225 : gt = 128 , t1 =  99.3469 , t2 = 266.6680 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  226 : gt = 128 , t1 =  68.2904 , t2 =  99.8090 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  227 : gt = 128 , t1 =  67.9742 , t2 = 133.3340 . avg.P-score = 0.9696 , ALOTC-score= 1 *
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - P-score = 0.3569 alotc = 0.4884
+Viennese Waltz
+id =  338 : gt = 174 , t1 =  57.0414 , t2 =  58.3378 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  339 : gt = 174 , t1 =  57.0414 , t2 = 177.6063 . avg.P-score = 0.9753 , ALOTC-score= 1 *
+id =  340 : gt = 174 , t1 =  55.7450 , t2 =  57.0414 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  341 : gt = 174 , t1 = 178.9027 , t2 = 180.1991 . avg.P-score = 1.0000 , ALOTC-score= 1 *
+id =  342 : gt = 180 , t1 =  58.3378 , t2 = 184.0882 . avg.P-score = 0.9485 , ALOTC-score= 1 *
+id =  343 : gt = 180 , t1 =  58.3378 , t2 = 185.3846 . avg.P-score = 0.9702 , ALOTC-score= 1 *
+id =  344 : gt = 180 , t1 = 184.0882 , t2 = 185.3846 . avg.P-score = 1.0000 , ALOTC-score= 1 *
+id =  345 : gt = 180 , t1 = 184.0882 , t2 = 185.3846 . avg.P-score = 1.0000 , ALOTC-score= 1 *
+id =  346 : gt = 180 , t1 =  57.0414 , t2 =  59.6342 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  347 : gt = 180 , t1 =  57.0414 , t2 =  66.1162 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  348 : gt = 180 , t1 =  57.0414 , t2 = 185.3846 . avg.P-score = 0.9543 , ALOTC-score= 1 *
+id =  349 : gt = 177 , t1 =  57.0414 , t2 =  59.6342 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  350 : gt = 180 , t1 =  57.0414 , t2 = 182.7918 . avg.P-score = 0.9691 , ALOTC-score= 1 *
+id =  351 : gt = 180 , t1 =  62.2270 , t2 = 185.3846 . avg.P-score = 0.9816 , ALOTC-score= 1 *
+id =  352 : gt = 180 , t1 =  58.3378 , t2 =  62.2270 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  353 : gt = 180 , t1 = 184.0882 , t2 = 186.6810 . avg.P-score = 1.0000 , ALOTC-score= 1 *
+id =  354 : gt = 180 , t1 = 184.0882 , t2 = 186.6810 . avg.P-score = 1.0000 , ALOTC-score= 1 *
+id =  355 : gt = 180 , t1 = 187.9774 , t2 = 189.2738 . avg.P-score = 1.0000 , ALOTC-score= 1 *
+id =  356 : gt = 180 , t1 =  57.0414 , t2 = 186.6810 . avg.P-score = 0.9660 , ALOTC-score= 1 *
+id =  357 : gt = 180 , t1 = 123.1576 , t2 = 124.4540 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  358 : gt = 180 , t1 =  57.0414 , t2 = 186.6810 . avg.P-score = 0.9744 , ALOTC-score= 1 *
+id =  359 : gt = 180 , t1 =  55.7450 , t2 =  58.3378 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  360 : gt = 180 , t1 = 180.1991 , t2 = 181.4955 . avg.P-score = 1.0000 , ALOTC-score= 1 *
+id =  361 : gt = 180 , t1 = 185.3846 , t2 = 187.9774 . avg.P-score = 1.0000 , ALOTC-score= 1 *
+id =  362 : gt = 180 , t1 =  57.0414 , t2 =  58.3378 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  363 : gt = 180 , t1 = 185.3846 , t2 = 186.6810 . avg.P-score = 1.0000 , ALOTC-score= 1 *
+id =  364 : gt = 177 , t1 =  57.0414 , t2 =  58.3378 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  365 : gt = 180 , t1 = 185.3846 , t2 = 186.6810 . avg.P-score = 1.0000 , ALOTC-score= 1 *
+id =  366 : gt = 180 , t1 =  57.0414 , t2 =  59.6342 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  367 : gt = 180 , t1 =  57.0414 , t2 = 184.0882 . avg.P-score = 0.9586 , ALOTC-score= 1 *
+id =  368 : gt = 180 , t1 =  57.0414 , t2 =  59.6342 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  369 : gt = 180 , t1 =  57.0414 , t2 = 181.4955 . avg.P-score = 0.9750 , ALOTC-score= 1 *
+id =  370 : gt = 180 , t1 =  58.3378 , t2 =  59.6342 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  371 : gt = 180 , t1 = 185.3846 , t2 = 186.6810 . avg.P-score = 1.0000 , ALOTC-score= 1 *
+id =  372 : gt = 180 , t1 = 184.0882 , t2 = 185.3846 . avg.P-score = 1.0000 , ALOTC-score= 1 *
+id =  373 : gt = 174 , t1 =  55.7450 , t2 =  57.0414 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  374 : gt = 177 , t1 =  57.0414 , t2 =  59.6342 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  375 : gt = 177 , t1 =  57.0414 , t2 =  58.3378 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  376 : gt = 177 , t1 =  57.0414 , t2 =  59.6342 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  377 : gt = 177 , t1 =  55.7450 , t2 =  57.0414 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  378 : gt = 177 , t1 =  55.7450 , t2 =  57.0414 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  379 : gt = 177 , t1 = 182.7918 , t2 = 184.0882 . avg.P-score = 1.0000 , ALOTC-score= 1 *
+id =  380 : gt = 177 , t1 =  59.6342 , t2 = 181.4955 . avg.P-score = 0.9656 , ALOTC-score= 1 *
+id =  381 : gt = 174 , t1 = 178.9027 , t2 = 180.1991 . avg.P-score = 1.0000 , ALOTC-score= 1 *
+id =  382 : gt = 177 , t1 =  58.3378 , t2 = 182.7918 . avg.P-score = 0.9531 , ALOTC-score= 1 *
+id =  383 : gt = 177 , t1 =  58.3378 , t2 =  62.2270 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  384 : gt = 177 , t1 =  57.0414 , t2 =  59.6342 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  385 : gt = 177 , t1 =  57.0414 , t2 = 182.7918 . avg.P-score = 0.9412 , ALOTC-score= 1 *
+id =  386 : gt = 177 , t1 = 181.4955 , t2 = 182.7918 . avg.P-score = 1.0000 , ALOTC-score= 1 *
+id =  387 : gt = 174 , t1 =  55.7450 , t2 =  57.0414 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  388 : gt = 177 , t1 =  57.0414 , t2 =  58.3378 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  389 : gt = 174 , t1 =  58.3378 , t2 =  59.6342 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  390 : gt = 177 , t1 = 181.4955 , t2 = 182.7918 . avg.P-score = 1.0000 , ALOTC-score= 1 *
+id =  391 : gt = 177 , t1 = 181.3916 , t2 = 182.6966 . avg.P-score = 1.0000 , ALOTC-score= 1 *
+id =  392 : gt = 180 , t1 =  57.6024 , t2 =  60.2207 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  393 : gt = 180 , t1 =  62.1254 , t2 =  63.4472 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  394 : gt = 180 , t1 =  60.0289 , t2 = 123.9727 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  395 : gt = 180 , t1 =  57.4189 , t2 = 187.9165 . avg.P-score = 0.9384 , ALOTC-score= 1 *
+id =  396 : gt = 174 , t1 = 178.7817 , t2 = 180.0867 . avg.P-score = 1.0000 , ALOTC-score= 1 *
+id =  397 : gt = 174 , t1 =  58.7239 , t2 = 120.0578 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  398 : gt = 180 , t1 =  58.9115 , t2 =  60.2207 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  399 : gt = 180 , t1 = 122.6677 , t2 = 123.9727 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  400 : gt = 180 , t1 = 186.9291 , t2 = 188.2362 . avg.P-score = 1.0000 , ALOTC-score= 1 *
+id =  401 : gt = 174 , t1 =  58.8238 , t2 =  60.1310 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  402 : gt = 177 , t1 =  57.5166 , t2 =  58.8238 . avg.P-score = 0.0000 , ALOTC-score= 0
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - P-score = 0.4996 alotc = 0.5077
+Slow Waltz
+id =  228 : gt =  87 , t1 =  57.0414 , t2 =  59.6342 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  229 : gt =  87 , t1 =  57.0414 , t2 =  58.3378 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  230 : gt =  87 , t1 =  57.0414 , t2 =  58.3378 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  231 : gt =  87 , t1 = 178.9027 , t2 = 180.1991 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  232 : gt =  87 , t1 =  55.7450 , t2 =  84.2657 . avg.P-score = 0.5173 , ALOTC-score= 1 *
+id =  233 : gt =  84 , t1 =  55.7450 , t2 =  57.0414 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  234 : gt =  84 , t1 = 171.1243 , t2 = 172.4207 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  235 : gt =  84 , t1 =  57.0414 , t2 =  90.7477 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  236 : gt =  87 , t1 =  58.3378 , t2 =  90.7477 . avg.P-score = 0.5097 , ALOTC-score= 1 *
+id =  237 : gt =  87 , t1 =  57.0414 , t2 =  59.6342 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  238 : gt =  87 , t1 =  57.0414 , t2 = 178.9027 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  239 : gt =  87 , t1 =  55.7450 , t2 =  90.7477 . avg.P-score = 0.4963 , ALOTC-score= 1 *
+id =  240 : gt =  87 , t1 = 178.9027 , t2 = 180.1991 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  241 : gt =  84 , t1 =  55.7450 , t2 = 146.4928 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  242 : gt =  87 , t1 =  57.0414 , t2 =  82.9693 . avg.P-score = 0.4359 , ALOTC-score= 1 *
+id =  243 : gt =  87 , t1 =  57.0414 , t2 =  60.9306 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  244 : gt =  87 , t1 =  57.0414 , t2 =  88.1549 . avg.P-score = 0.5601 , ALOTC-score= 1 *
+id =  245 : gt =  87 , t1 =  55.7450 , t2 =  57.0414 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  246 : gt =  87 , t1 =  58.3378 , t2 =  86.8585 . avg.P-score = 0.4307 , ALOTC-score= 1 *
+id =  247 : gt =  87 , t1 =  57.0414 , t2 =  89.4513 . avg.P-score = 0.5273 , ALOTC-score= 1 *
+id =  248 : gt =  87 , t1 =  55.7450 , t2 =  92.0441 . avg.P-score = 0.5494 , ALOTC-score= 1 *
+id =  249 : gt =  87 , t1 =  89.4513 , t2 =  90.7477 . avg.P-score = 1.0000 , ALOTC-score= 1 *
+id =  250 : gt =  87 , t1 =  57.0414 , t2 =  92.0441 . avg.P-score = 0.5356 , ALOTC-score= 1 *
+id =  251 : gt =  87 , t1 =  55.7450 , t2 =  57.0414 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  252 : gt =  87 , t1 =  57.0414 , t2 =  89.4513 . avg.P-score = 0.5324 , ALOTC-score= 1 *
+id =  253 : gt =  87 , t1 =  55.7450 , t2 =  58.3378 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  254 : gt =  87 , t1 =  57.0414 , t2 =  58.3378 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  255 : gt =  84 , t1 =  57.0414 , t2 = 172.4207 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  256 : gt =  87 , t1 =  55.7450 , t2 =  58.3378 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  257 : gt =  87 , t1 =  57.0414 , t2 =  72.5982 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  258 : gt =  84 , t1 =  55.7450 , t2 =  57.0414 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  259 : gt =  81 , t1 =  57.0414 , t2 =  58.3378 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  260 : gt =  87 , t1 =  57.0414 , t2 =  86.8585 . avg.P-score = 0.4891 , ALOTC-score= 1 *
+id =  261 : gt =  87 , t1 =  58.3378 , t2 = 178.9027 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  262 : gt =  87 , t1 = 177.6063 , t2 = 178.9027 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  263 : gt =  87 , t1 =  55.7450 , t2 =  58.3378 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  264 : gt =  87 , t1 = 178.9027 , t2 = 180.1991 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  265 : gt =  84 , t1 =  57.0414 , t2 =  58.3378 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  266 : gt =  84 , t1 =  57.0414 , t2 = 177.6063 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  267 : gt =  84 , t1 =  57.0414 , t2 =  58.3378 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  268 : gt =  84 , t1 = 173.7171 , t2 = 175.0135 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  269 : gt =  84 , t1 =  57.0414 , t2 =  85.5621 . avg.P-score = 0.5489 , ALOTC-score= 1 *
+id =  270 : gt =  84 , t1 =  84.2657 , t2 =  85.5621 . avg.P-score = 1.0000 , ALOTC-score= 1 *
+id =  271 : gt =  84 , t1 =  60.9306 , t2 =  68.7090 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  272 : gt =  87 , t1 =  57.0414 , t2 =  58.3378 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  273 : gt =  84 , t1 =  57.0414 , t2 =  58.3378 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  274 : gt =  87 , t1 =  57.0414 , t2 =  58.3378 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  275 : gt =  84 , t1 =  55.7450 , t2 =  57.0414 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  276 : gt =  87 , t1 =  57.0414 , t2 =  59.6342 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  277 : gt =  87 , t1 =  57.0414 , t2 =  59.6342 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  278 : gt =  84 , t1 =  57.0414 , t2 =  58.3378 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  279 : gt =  84 , t1 =  57.0414 , t2 =  62.2270 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  280 : gt =  87 , t1 =  57.0414 , t2 =  63.5234 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  281 : gt =  84 , t1 =  85.5621 , t2 =  86.8585 . avg.P-score = 1.0000 , ALOTC-score= 1 *
+id =  282 : gt =  87 , t1 = 175.0135 , t2 = 177.6063 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  283 : gt =  87 , t1 = 172.4207 , t2 = 177.6063 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  284 : gt =  87 , t1 =  55.7450 , t2 =  57.0414 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  285 : gt =  87 , t1 =  57.0414 , t2 =  58.3378 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  286 : gt =  84 , t1 =  54.4486 , t2 =  57.0414 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  287 : gt =  84 , t1 = 173.7171 , t2 = 177.6063 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  288 : gt =  87 , t1 =  59.6342 , t2 =  92.0441 . avg.P-score = 0.4683 , ALOTC-score= 1 *
+id =  289 : gt =  87 , t1 = 178.9027 , t2 = 180.1991 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  290 : gt =  87 , t1 =  57.0414 , t2 =  84.2657 . avg.P-score = 0.4980 , ALOTC-score= 1 *
+id =  291 : gt =  84 , t1 =  55.7450 , t2 =  59.6342 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  292 : gt =  87 , t1 =  57.0414 , t2 =  59.6342 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  293 : gt =  87 , t1 =  57.0414 , t2 =  58.3378 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  294 : gt =  87 , t1 = 178.9027 , t2 = 180.1991 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  295 : gt =  84 , t1 =  82.9693 , t2 = 173.7171 . avg.P-score = 0.0164 , ALOTC-score= 1 *
+id =  296 : gt =  87 , t1 =  57.0414 , t2 =  58.3378 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  297 : gt =  87 , t1 =  89.4513 , t2 = 180.1991 . avg.P-score = 0.0524 , ALOTC-score= 1 *
+id =  298 : gt =  87 , t1 =  57.0414 , t2 =  93.3405 . avg.P-score = 0.5404 , ALOTC-score= 1 *
+id =  299 : gt =  87 , t1 =  57.0414 , t2 = 180.1991 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  300 : gt =  87 , t1 =  58.3378 , t2 = 178.9027 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  301 : gt =  84 , t1 =  57.0414 , t2 = 171.1243 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  302 : gt =  84 , t1 =  57.0414 , t2 =  58.3378 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  303 : gt =  84 , t1 =  57.4189 , t2 =  58.7239 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  304 : gt =  87 , t1 =  57.6024 , t2 = 183.2804 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  305 : gt =  90 , t1 =  87.7127 , t2 = 153.1700 . avg.P-score = 0.0321 , ALOTC-score= 1 *
+id =  306 : gt =  87 , t1 =  57.6024 , t2 =  58.9115 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  307 : gt =  84 , t1 =  70.9205 , t2 =  95.8740 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  308 : gt =  90 , t1 =  57.6024 , t2 = 124.3688 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  309 : gt =  84 , t1 =  57.4189 , t2 =  86.1284 . avg.P-score = 0.4880 , ALOTC-score= 1 *
+id =  310 : gt =  84 , t1 =  56.1140 , t2 =  57.4189 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  311 : gt =  84 , t1 =  57.4189 , t2 =  86.1284 . avg.P-score = 0.5191 , ALOTC-score= 1 *
+id =  312 : gt =  84 , t1 =  56.1140 , t2 =  57.4189 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  313 : gt =  84 , t1 =  88.7384 , t2 =  90.0433 . avg.P-score = 1.0000 , ALOTC-score= 1 *
+id =  314 : gt =  84 , t1 =  56.1140 , t2 =  57.4189 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  315 : gt =  84 , t1 =  56.1140 , t2 =  57.4189 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  316 : gt =  84 , t1 = 163.6432 , t2 = 172.8072 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  317 : gt =  84 , t1 =  57.4189 , t2 =  84.8234 . avg.P-score = 0.5234 , ALOTC-score= 1 *
+id =  318 : gt =  91 , t1 =  56.3424 , t2 =  60.1839 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  319 : gt =  90 , t1 = 270.1873 , t2 = 271.4678 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  320 : gt =  84 , t1 =  57.6229 , t2 =  80.6720 . avg.P-score = 0.4953 , ALOTC-score= 1 *
+id =  321 : gt =  94 , t1 =  87.0746 , t2 =  88.3551 . avg.P-score = 1.0000 , ALOTC-score= 1 *
+id =  322 : gt =  72 , t1 =  56.3424 , t2 =  78.1110 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  323 : gt =  86 , t1 =  56.3424 , t2 =  57.6229 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  324 : gt =  87 , t1 =  58.3378 , t2 =  68.7090 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  325 : gt =  87 , t1 =  55.7450 , t2 =  57.0414 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  326 : gt =  87 , t1 =  55.7450 , t2 =  57.0414 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  327 : gt =  87 , t1 =  89.4513 , t2 = 117.9720 . avg.P-score = 0.6039 , ALOTC-score= 1 *
+id =  328 : gt =  87 , t1 =  57.5166 , t2 =  65.3598 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  329 : gt =  87 , t1 =  75.8174 , t2 = 350.3286 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  330 : gt =  87 , t1 =  57.7842 , t2 =  91.9293 . avg.P-score = 0.4847 , ALOTC-score= 1 *
+id =  331 : gt =  87 , t1 =  57.5166 , t2 =  58.8238 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  332 : gt =  80 , t1 =  56.3424 , t2 = 180.5517 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  333 : gt =  96 , t1 =  56.3424 , t2 =  57.6229 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  334 : gt =  94 , t1 =  57.6229 , t2 =  58.9034 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  335 : gt =  60 , t1 =  55.0619 , t2 =  56.3424 . avg.P-score = 0.5000 , ALOTC-score= 1 *
+id =  336 : gt =  88 , t1 =  55.0619 , t2 =  56.3424 . avg.P-score = 0.0000 , ALOTC-score= 0
+id =  337 : gt = 112 , t1 =  70.4280 , t2 = 111.4042 . avg.P-score = 0.5599 , ALOTC-score= 1 *
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - P-score = 0.1538 alotc = 0.2818
+.
+        Cha Cha : avg.P-score = 0.0194 , avg.ALOTC = 0.06306306306306306
+           Jive : avg.P-score = 0.8908 , avg.ALOTC = 0.9166666666666666
+      Quickstep : avg.P-score = 0.7948 , avg.ALOTC = 0.8048780487804879
+          Rumba : avg.P-score = 0.0318 , avg.ALOTC = 0.05102040816326531
+          Samba : avg.P-score = 0.0690 , avg.ALOTC = 0.1744186046511628
+          Tango : avg.P-score = 0.3569 , avg.ALOTC = 0.4883720930232558
+ Viennese Waltz : avg.P-score = 0.4996 , avg.ALOTC = 0.5076923076923077
+     Slow Waltz : avg.P-score = 0.1538 , avg.ALOTC = 0.2818181818181818
+.
+runTime =  1927.207286119461
+
+Process finished with exit code 0

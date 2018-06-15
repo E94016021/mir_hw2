@@ -1,9 +1,7 @@
 import librosa
 import librosa.display
-import matplotlib.pyplot as plt
-import numpy as np
-from dataset import BallroomDataGenre, BallroomData
-from tempogram import get_tempo_distribu, ALOTC, relative_saliency_of_t1
+from by_exeex.dataset import BallroomDataGenre
+from by_exeex.tempogram import get_tempo_distribu, ALOTC
 import time
 
 

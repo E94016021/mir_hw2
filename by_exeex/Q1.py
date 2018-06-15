@@ -1,10 +1,8 @@
-import os
-import librosa
 import librosa.display
 import matplotlib.pyplot as plt
 import numpy as np
-from dataset import BallroomData, StdData
-from tempogram import fourier_tempogram
+from by_exeex.dataset import StdData
+from by_exeex.tempogram import fourier_tempogram
 import librosa.display
 import scipy.signal
 
