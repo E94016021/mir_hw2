@@ -1,4 +1,3 @@
-/Users/LEE/anaconda3/python.app/Contents/MacOS/python /Users/LEE/PycharmProjects/mir-hw2/q4.py
 Cha Cha
 id = 489 , gt =124 , t1 = 123.0469 , t2 =246.0938 . P-score = 0.0523 , ALOTC = 1 . t1/t2 = 2.0000 , t1/gt = 0.9923 , t2/gt = 1.9846
 id = 490 , gt =136 , t1 = 123.0469 , t2 =135.9992 . P-score = 0.4531 , ALOTC = 1 . t1/t2 = 1.1053 , t1/gt = 0.9048 , t2/gt = 1.0000

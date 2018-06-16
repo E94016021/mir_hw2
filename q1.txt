@@ -1,4 +1,3 @@
-/Users/LEE/anaconda3/python.app/Contents/MacOS/python /Users/LEE/PycharmProjects/mir-hw2/q1.py
 Cha Cha
 id =  489 : gt = 124 , t1 = 255.7752 , t2 = 257.0802 . avg.P-score = 0.0000 , ALOTC-score= 0
 id =  490 : gt = 136 , t1 = 269.3988 , t2 = 270.6636 . avg.P-score = 0.0000 , ALOTC-score= 0

@@ -21,6 +21,7 @@ class BallroomData():
 
         self.files = [os.path.join(data_path, line[2:-1]) for line in lines]
         self.transform = transform
+        self.genres = ["ChaChaCha", "Jive", "Quickstep", "Rumba", "Samba", "Tango", "VienneseWaltz", "Waltz"]
 
     def __len__(self):
         return len(self.files)
@@ -77,6 +78,35 @@ class BallroomData():
         else:
             print("!! Wrong Genre Name !!")
             return 0, 0
+
+    def get_genre(self, idx):
+
+        file = self.files[idx]
+
+        # print(file)
+        for genre in self.genres:
+            if file.find(genre) != -1:
+                return genre
+
+    def get_gg(self, idx):
+        folder = "BallroomAnnotations_beat"
+        file = os.path.split(self.files[idx])[-1].replace(".wav", ".beats")
+        file_path = os.path.join(folder, file)
+
+        beats = []
+        beat_num = []
+
+        with open(file_path, newline='') as b:
+
+            for line in b.readlines():
+                try:
+                    beats.append(float(line.split(" ")[0]))
+                    beat_num.append(int(line.split(" ")[1]))
+                except ValueError:
+                    beats.append(float(line.split("\t")[0]))
+                    beat_num.append(int(line.split("\t")[1].replace('\n', '')))
+
+        return beats, beat_num
 
 
 if __name__ == '__main__':
