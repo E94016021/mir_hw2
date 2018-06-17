@@ -48,39 +48,41 @@
   便可觀察出通常是某節奏是某節奏的一倍、兩倍、三倍等等
 ## Q3 (10%): try to use[𝑇 /2,𝑇 /2], [𝑇 /3,𝑇 /3], and [𝑇 /4,𝑇 /4].
   在除2除3除4的狀況下觀察到一些現象：
+  基本上當出狀況很糟的genre似乎很容易會在除與某數的時候分數突然地升高，這也代表當初在預測的tempo可能是正確值之倍數，Cha Cha就是個明顯的例子，在初始的預測他的tempo很多都來到257，但實際值為127，所以再除以二之後的表現非常優異，之後的例子族繁不及備載。
+  但再除以3與4時，大部分的分數都掉到近乎零分，也就代表已經超過太多倍了。
 
 
     T/2
-            Cha Cha : avg.P-score = 0.1516 , avg.ALOTC = 0.8108108108108109
-               Jive : avg.P-score = 0.8455 , avg.ALOTC = 0.9166666666666666
-          Quickstep : avg.P-score = 0.7693 , avg.ALOTC = 0.8048780487804879
-              Rumba : avg.P-score = 0.0754 , avg.ALOTC = 0.7040816326530612
-              Samba : avg.P-score = 0.0623 , avg.ALOTC = 0.32558139534883723
-              Tango : avg.P-score = 0.3346 , avg.ALOTC = 0.6395348837209303
-     Viennese Waltz : avg.P-score = 0.4846 , avg.ALOTC = 0.5076923076923077
-         Slow Waltz : avg.P-score = 0.1290 , avg.ALOTC = 0.35454545454545455
+            Cha Cha : avg.P-score = 0.9116 , avg.ALOTC = 0.990990990990991
+               Jive : avg.P-score = 0.0495 , avg.ALOTC = 0.05
+          Quickstep : avg.P-score = 0.0000 , avg.ALOTC = 0.0
+              Rumba : avg.P-score = 0.7235 , avg.ALOTC = 0.8163265306122449
+              Samba : avg.P-score = 0.1654 , avg.ALOTC = 0.313953488372093
+              Tango : avg.P-score = 0.3175 , avg.ALOTC = 0.37209302325581395
+     Viennese Waltz : avg.P-score = 0.0000 , avg.ALOTC = 0.0
+         Slow Waltz : avg.P-score = 0.1533 , avg.ALOTC = 0.2
 
 
     T/3
-            Cha Cha : avg.P-score = 0.0024 , avg.ALOTC = 0.009009009009009009
-               Jive : avg.P-score = 0.8254 , avg.ALOTC = 0.8833333333333333
-          Quickstep : avg.P-score = 0.7692 , avg.ALOTC = 0.8048780487804879
-              Rumba : avg.P-score = 0.0265 , avg.ALOTC = 0.04081632653061224
-              Samba : avg.P-score = 0.0416 , avg.ALOTC = 0.06976744186046512
-              Tango : avg.P-score = 0.2912 , avg.ALOTC = 0.43023255813953487
-     Viennese Waltz : avg.P-score = 0.4844 , avg.ALOTC = 0.5076923076923077
-         Slow Waltz : avg.P-score = 0.1249 , avg.ALOTC = 0.2545454545454545
+            Cha Cha : avg.P-score = 0.0000 , avg.ALOTC = 0.0
+               Jive : avg.P-score = 0.0000 , avg.ALOTC = 0.0
+          Quickstep : avg.P-score = 0.0000 , avg.ALOTC = 0.0
+              Rumba : avg.P-score = 0.0000 , avg.ALOTC = 0.0
+              Samba : avg.P-score = 0.0000 , avg.ALOTC = 0.0
+              Tango : avg.P-score = 0.0000 , avg.ALOTC = 0.0
+     Viennese Waltz : avg.P-score = 0.0000 , avg.ALOTC = 0.0
+         Slow Waltz : avg.P-score = 0.0091 , avg.ALOTC = 0.00909090909090909
 
 
     T/4
-            Cha Cha : avg.P-score = 0.0027 , avg.ALOTC = 0.009009009009009009
-               Jive : avg.P-score = 0.8249 , avg.ALOTC = 0.8833333333333333
-          Quickstep : avg.P-score = 0.7690 , avg.ALOTC = 0.8048780487804879
-              Rumba : avg.P-score = 0.0264 , avg.ALOTC = 0.04081632653061224
-              Samba : avg.P-score = 0.0646 , avg.ALOTC = 0.47674418604651164
-              Tango : avg.P-score = 0.2904 , avg.ALOTC = 0.43023255813953487
-     Viennese Waltz : avg.P-score = 0.4844 , avg.ALOTC = 0.5076923076923077
-         Slow Waltz : avg.P-score = 0.1254 , avg.ALOTC = 0.24545454545454545     
+            Cha Cha : avg.P-score = 0.0000 , avg.ALOTC = 0.0
+               Jive : avg.P-score = 0.0000 , avg.ALOTC = 0.0
+          Quickstep : avg.P-score = 0.0000 , avg.ALOTC = 0.0
+              Rumba : avg.P-score = 0.0062 , avg.ALOTC = 0.01020408163265306
+              Samba : avg.P-score = 0.5407 , avg.ALOTC = 0.6744186046511628
+              Tango : avg.P-score = 0.0000 , avg.ALOTC = 0.0
+     Viennese Waltz : avg.P-score = 0.0000 , avg.ALOTC = 0.0
+         Slow Waltz : avg.P-score = 0.0045 , avg.ALOTC = 0.00909090909090909
 
 
 ## Q4 (20%): Using the ACF tempogram and repeat Q1 and Q2. What do you see? Compare the result with Q1 and Q2.
