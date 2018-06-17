@@ -300,7 +300,7 @@ if __name__ == "__main__":
 
                             # TODO: diff
                             t_1 = t_1_ori / diff
-                            t_2 = t_2_ori
+                            t_2 = t_2_ori / diff
 
                             # TODO: remember gt
                             gt = d.get_gt_bpm(file_number)

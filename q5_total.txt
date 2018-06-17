@@ -1,0 +1,29 @@
+
+diff = 2                               mul = 2
+        Cha Cha : avg.P-score = 0.4054         Cha Cha : avg.P-score = 0.0631
+           Jive : avg.P-score = 0.0167            Jive : avg.P-score = 0.8000
+      Quickstep : avg.P-score = 0.0000       Quickstep : avg.P-score = 0.9512
+          Rumba : avg.P-score = 0.4286           Rumba : avg.P-score = 0.0102
+          Samba : avg.P-score = 0.1163           Samba : avg.P-score = 0.0000
+          Tango : avg.P-score = 0.0116           Tango : avg.P-score = 0.0116
+ Viennese Waltz : avg.P-score = 0.0000  Viennese Waltz : avg.P-score = 0.4923
+     Slow Waltz : avg.P-score = 0.3273      Slow Waltz : avg.P-score = 0.0000
+diff = 3                               mul = 3
+        Cha Cha : avg.P-score = 0.0000         Cha Cha : avg.P-score = 0.0000
+           Jive : avg.P-score = 0.0000            Jive : avg.P-score = 0.0000
+      Quickstep : avg.P-score = 0.0000       Quickstep : avg.P-score = 0.0122
+          Rumba : avg.P-score = 0.0000           Rumba : avg.P-score = 0.0000
+          Samba : avg.P-score = 0.0000           Samba : avg.P-score = 0.0000
+          Tango : avg.P-score = 0.0000           Tango : avg.P-score = 0.0000
+ Viennese Waltz : avg.P-score = 0.0000  Viennese Waltz : avg.P-score = 0.0000
+     Slow Waltz : avg.P-score = 0.0000      Slow Waltz : avg.P-score = 0.0000
+diff = 4                               mul = 4
+        Cha Cha : avg.P-score = 0.0000         Cha Cha : avg.P-score = 0.0000
+           Jive : avg.P-score = 0.0000            Jive : avg.P-score = 0.0000
+      Quickstep : avg.P-score = 0.0000       Quickstep : avg.P-score = 0.0000
+          Rumba : avg.P-score = 0.0000           Rumba : avg.P-score = 0.0000
+          Samba : avg.P-score = 0.0000           Samba : avg.P-score = 0.0000
+          Tango : avg.P-score = 0.0000           Tango : avg.P-score = 0.0000
+ Viennese Waltz : avg.P-score = 0.0000  Viennese Waltz : avg.P-score = 0.0000
+     Slow Waltz : avg.P-score = 0.0000      Slow Waltz : avg.P-score = 0.0000
+
